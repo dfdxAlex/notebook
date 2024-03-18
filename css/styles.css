@@ -1,0 +1,10 @@
+.container-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 колонки равной ширины */
+    grid-gap: 10px; /* Промежуток между ячейками */
+}
+
+.item-menu {
+    background-color: #ccc;
+    padding: 20px;
+}
