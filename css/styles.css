@@ -12,6 +12,10 @@
     color:aliceblue;
 }
 
+.item-menu-text {
+    background-color: #ece2e2;
+}
+
 .button-poz {
     display: inline;
     margin-left: 10px;
