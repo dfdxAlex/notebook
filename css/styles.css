@@ -8,3 +8,8 @@
     background-color: #ccc;
     padding: 20px;
 }
+
+.button-poz {
+    display: inline;
+    margin-left: 10px;
+}

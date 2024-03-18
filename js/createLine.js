@@ -4,7 +4,7 @@ function createLine() {
     const pozition = document.getElementById('pozition');
     let innerOut='<ul>';
     for (val in mas) {
-        innerOut += '<li>'+mas[val]+'</li>';
+        innerOut += '<button onclick="dellPozition('+val+'); createLine();" type="button">x</button><li class="button-poz">'+mas[val]+'</li> <br>';
     }
     innerOut += '</ul>';
     pozition.innerHTML = innerOut;
