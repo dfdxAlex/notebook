@@ -2,8 +2,10 @@ function saveData()
 {
     // объявить массив
     let mas = [];
-    // добыть данные из хранилища и поместить их в массив
-    mas = JSON.parse(localStorage.getItem('amatorDed_notePad_Data'));
+
+    if (localStorage.getItem('amatorDed_notePad_Data')!=null)
+        // добыть данные из хранилища и поместить их в массив
+        mas = JSON.parse(localStorage.getItem('amatorDed_notePad_Data'));
 
     // найти форму с текстом
     const name = document.getElementById('name');
