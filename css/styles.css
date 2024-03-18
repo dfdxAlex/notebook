@@ -1,7 +1,9 @@
-.container-menu {
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 2 колонки равной ширины */
-    grid-gap: 10px; /* Промежуток между ячейками */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 100px; /* Выберите высоту строк по вашему усмотрению */
+    grid-gap: 10px;
+    grid-auto-flow: row; /* Это заставит элементы переноситься вниз при нехватке места */
 }
 
 .item-menu {
