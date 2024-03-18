@@ -5,8 +5,11 @@
 }
 
 .item-menu {
-    background-color: #ccc;
-    padding: 20px;
+    background-color: #ad2f2f;
+    height: 30px;
+    font-size: 25px;
+    border-radius: 10px;
+    color:aliceblue;
 }
 
 .button-poz {
