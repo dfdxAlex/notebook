@@ -5,8 +5,8 @@
 }
 
 .item-menu {
-    background-color: #ad2f2f;
-    height: 30px;
+    background-color: #0a7808;
+    height: 35px;
     font-size: 25px;
     border-radius: 10px;
     color:aliceblue;
@@ -19,4 +19,15 @@
 .button-poz {
     display: inline;
     margin-left: 10px;
+    height: 30px;
+    font-size: 25px;
+}
+
+.button-dell {
+    background-color: #ae0909;
+    height: 30px;
+    width: 30px;
+    color:#ece2e2;
+    font-size: 25px;
+    border-radius: 50px;
 }

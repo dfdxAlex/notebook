@@ -20,15 +20,4 @@ function saveData()
 
         name.value='';
     }
-
 }
-
-// // Сохранение данных
-// localStorage.setItem('key', 'value');
-
-// // Получение данных
-// const data = localStorage.getItem('key');
-// console.log(data); // Выведет "value"
-
-// // Удаление данных
-// localStorage.removeItem('key');
