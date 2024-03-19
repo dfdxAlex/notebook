@@ -45,3 +45,8 @@
 .button-setting {
     margin: 5px;
 }
+
+.button-setting-div {
+    display: inline;
+    padding: 5px;
+}
