@@ -25,7 +25,6 @@
     margin-left: 10px;
     height: 50px;
     font-size: 45px;
-    
 }
 
 .button-dell {
@@ -57,5 +56,12 @@
 @media screen and (max-width: 600px) {
     .button-setting-div {
         padding: 10px;
+    }
+
+    .item-menu-text {
+        height: 65px;
+        font-size: 55px;
+        border-radius: 20px;
+
     }
 }
