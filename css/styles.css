@@ -52,6 +52,9 @@
     padding: 5px;
 }
 
+.item-menu-setting-ok {
+    display: block;
+}
 
 
 /* Стили для маленьких экранов (ширина менее 600px) */

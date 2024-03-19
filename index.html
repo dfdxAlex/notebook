@@ -8,13 +8,14 @@
     <script src="js/saveData.js"></script>
     <script src="js/createLine.js"></script>
     <script src="js/dellPozition.js"></script>
+    <script src="js/cleanBookList.js"></script>
 </head>
 <body>
 
     <form action="#" class="container-menu">
         <input class="item-menu item-menu-text" id="name" type="text" name="name" value="">
         <div class="button-setting-div">
-            <button type="button" onclick="" class="button-setting">
+            <button type="button" onclick="cleanBookList(1);" class="button-setting" id="button_setting">
                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 1280.000000 1278.000000"
                 preserveAspectRatio="xMidYMid meet">
@@ -60,7 +61,23 @@
                </g>
                </svg>
             </button>
-            <button class="item-menu" onclick="saveData(); createLine();" type="button">Добавить</button>
+
+            <button class="item-menu" 
+                    onclick="saveData(); createLine();" 
+                    type="button"
+            >
+                Добавить
+            </button>
+
+            <div class="off" id="item-menu-setting-ok">
+                <button  class="item-menu item-menu-setting-ok" 
+                         onclick="cleanBookList(0);" 
+                         type="button"
+                >
+                    Применить
+                </button>
+            </div>
+            
         </div>
     </form>
 
