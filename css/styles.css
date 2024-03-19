@@ -60,6 +60,10 @@
     display: inline;
 }
 
+.field-set {
+    width: 300px;
+}
+
 
 /* Стили для маленьких экранов (ширина менее 600px) */
 @media screen and (max-width: 600px) {
