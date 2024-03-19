@@ -56,6 +56,10 @@
     display: block;
 }
 
+.menu-add-ok {
+    display: inline;
+}
+
 
 /* Стили для маленьких экранов (ширина менее 600px) */
 @media screen and (max-width: 600px) {

@@ -62,12 +62,14 @@
                </svg>
             </button>
 
-            <button class="item-menu" 
-                    onclick="saveData(); createLine();" 
-                    type="button"
-            >
-                Добавить
-            </button>
+            <div class="on menu-add-ok" id="item-menu-ok" >
+                <button class="item-menu" 
+                        onclick="saveData(); createLine();" 
+                        type="button"
+                >
+                    Добавить
+                </button>
+            </div>
 
             <div class="off" id="item-menu-setting-ok">
                 <button  class="item-menu item-menu-setting-ok" 
@@ -77,7 +79,7 @@
                     Применить
                 </button>
             </div>
-            
+
         </div>
     </form>
 
