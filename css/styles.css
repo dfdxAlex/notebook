@@ -43,6 +43,8 @@
 
 .button-setting {
     margin: 5px;
+    width: 24pt;
+    height: 24pt;
 }
 
 .button-setting-div {
@@ -53,7 +55,7 @@
 
 
 /* Стили для маленьких экранов (ширина менее 600px) */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
     .button-setting-div {
         padding: 10px;
     }
@@ -63,5 +65,19 @@
         font-size: 55px;
         border-radius: 20px;
         width: 300px;
+    }
+
+    .item-menu {
+        height: 65px;
+        font-size: 55px;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+
+    .button-setting {
+        margin: 15px;
+        width: 55pt;
+        height: 55pt;
+        border-radius: 20px;
     }
 }
