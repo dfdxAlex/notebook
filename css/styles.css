@@ -50,3 +50,12 @@
     display: inline;
     padding: 5px;
 }
+
+
+
+/* Стили для маленьких экранов (ширина менее 600px) */
+@media screen and (max-width: 600px) {
+    .button-setting-div {
+        padding: 10px;
+    }
+}
