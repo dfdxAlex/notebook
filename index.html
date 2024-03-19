@@ -10,6 +10,8 @@
     <script src="js/dellPozition.js"></script>
     <script src="js/cleanBookList.js"></script>
     <script src="js/saveSetting.js"></script>
+    <script src="js/createLine.js"></script>
+    <script src="js/setSetting.js"></script>
 </head>
 <body>
 
@@ -86,10 +88,11 @@
                 <!-------------------------->
                 <br>
                 <button  class="item-menu item-menu-setting-ok" 
-                         onclick="cleanBookList(0); saveSetting();" 
+                         onclick="cleanBookList(0); saveSetting(); setSetting();" 
                          type="button"
+                         id="button-set-setting"
                 >
-                    Применить
+                    <span id="text-button-ok">Применить</span>
                 </button>
             </div>
 
@@ -100,6 +103,7 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', createLine);
+        document.addEventListener('DOMContentLoaded', setSetting);
     </script>
 
 </body>
