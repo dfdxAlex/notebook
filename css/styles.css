@@ -83,6 +83,13 @@ html {
 
 /* Стили для маленьких экранов (ширина менее 600px) */
 @media screen and (max-width: 600px) {
+
+    .button-setting {
+        width: 3.8em;
+        height: 3.8em;
+        border-radius: 20%;
+    }
+
     .button-setting-div {
         padding: 0px;
     }
@@ -101,10 +108,5 @@ html {
         margin-top: 10px;
     }
 
-    .button-setting {
-        margin: 1em;
-        width: 3.8em;
-        height: 3.8em;
-        border-radius: 20%;
-    }
+
 }
