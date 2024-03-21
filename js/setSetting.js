@@ -1,17 +1,21 @@
 function setSetting()
 {
-    let fontSiza = 45;
+    let fontSiza = 16;
     // Если в хранилище есть инфа о размере шрифта
     if (localStorage.getItem('fontSize')!=null) {
         fontSiza = localStorage.getItem('fontSize');
     }
 
-    const fontSize = document.getElementById('text-button-ok');
-    fontSize.style.fontSize = fontSiza+'px';
+    // Найти форму в которой может быть указан новый размер базового шрифта
+    const newFontSize = document.getElementById('font-size-setting').value;
 
-    const buttonHeight = document.getElementById('button-set-setting');
-    if (fontSiza<20) fontSiza = 20;
-    buttonHeight.style.height = fontSiza*1.40+'px';
-    // // createLine();
-    // console.log(fontSize.style.fontSize);
+    // Проверить больше ли 0 шрифт и не равен ли он старому значению
+    // Если шрифт не 0 и отличается от старого то изменить его в хранилище
+    if (newFontSize>0 && newFontSize!=fontSiza) {
+        localStorage.setItem('fontSize', newFontSize);
+        fontSiza = newFontSize;
+    }
+  
+    // Устанавливаем новый размер шрифта в px для корневого элемента
+    document.documentElement.style.fontSize = fontSiza + 'px';
 }

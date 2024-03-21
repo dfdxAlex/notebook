@@ -1,17 +1,25 @@
+
+/* Задать размер шрифта по умолчанию для всего документа. */
+html {
+    font-size: 16px; /* Задаем стартовый размер шрифта в пикселях */
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-auto-rows: 100px; /* Выберите высоту строк по вашему усмотрению */
-    grid-gap: 10px;
-    grid-row-gap: 5px; /* Отступ между строками */
+    /* grid-auto-rows: 100px; Выберите высоту строк по вашему усмотрению */
+    grid-auto-rows: 1.5em;
+    grid-gap: 0.5em;
+    grid-row-gap: 0.3em; /* Отступ между строками */
     grid-auto-flow: row; /* Это заставит элементы переноситься вниз при нехватке места */
 }
 
+/* Общие стили для различных элементов */
 .item-menu {
     background-color: #0a7808;
-    height: 35px;
-    font-size: 25px;
-    border-radius: 10px;
+    height: 1.5em;
+    font-size: 1em;
+    border-radius: 10%;
     color:aliceblue;
 }
 
@@ -20,31 +28,34 @@
     color: black;
 }
 
+/* Используется в функции createLine для вывода пунктов записей */
 .button-poz {
     display: inline;
-    margin-left: 10px;
-    height: 50px;
-    font-size: 45px;
+    margin-left: 0.5em;
+    height: 1.5em;
+    font-size: 1em;
 }
 
+/* кнопка удаления позиции */
 .button-dell {
     background-color: #ae0909;
-    height: 50px;
-    width: 50px;
+    height: 1.5em;
+    width: 1.5em;
     color:#ece2e2;
-    font-size: 45px;
-    border-radius: 50px;
-    margin-top: 20px;
+    font-size: 1em;
+    border-radius: 50%;
+    margin-top: 0.5em;
 }
 
 .off {
     display: none;
 }
 
+/* класс для кнопки настроек */
 .button-setting {
-    margin: 5px;
-    width: 24pt;
-    height: 24pt;
+    margin: 0.3em;
+    height: 2.5em;
+    width: 2.5em;
 }
 
 .button-setting-div {
@@ -52,8 +63,13 @@
     padding: 5px;
 }
 
+/* кнопка созранения настроек */
 .item-menu-setting-ok {
     display: block;
+    text-align: center;
+    line-height: 1.2em;
+    font-size: 1em;
+    height: 1.3em;
 }
 
 .menu-add-ok {
@@ -68,27 +84,27 @@
 /* Стили для маленьких экранов (ширина менее 600px) */
 @media screen and (max-width: 600px) {
     .button-setting-div {
-        padding: 10px;
+        padding: 0px;
     }
 
     .item-menu-text {
-        height: 65px;
-        font-size: 55px;
-        border-radius: 20px;
+        height: 4em;
+        font-size: 3.8em;
+        border-radius: 20%;
         width: 300px;
     }
 
     .item-menu {
-        height: 65px;
-        font-size: 55px;
-        border-radius: 20px;
+        height: 4em;
+        font-size: 3.8em;
+        border-radius: 20%;
         margin-top: 10px;
     }
 
     .button-setting {
-        margin: 15px;
-        width: 55pt;
-        height: 55pt;
-        border-radius: 20px;
+        margin: 1em;
+        width: 3.8em;
+        height: 3.8em;
+        border-radius: 20%;
     }
 }
