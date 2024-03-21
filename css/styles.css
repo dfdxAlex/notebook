@@ -92,8 +92,8 @@ html {
 /* Общие стили для различных элементов */
 .item-menu {
     background-color: #0a7808;
-    height: 3em;
-    font-size: 2.8em;
+    height: 2.1em;
+    font-size: 2em;
     border-radius: 10%;
     color:aliceblue;
 }
