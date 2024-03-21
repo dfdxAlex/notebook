@@ -124,7 +124,6 @@ html {
 
 /* класс для кнопки настроек */
 .button-setting {
-    margin: 0.3em;
     height: 4em;
     width: 4em;
     font-size: 3.8em;
@@ -140,8 +139,8 @@ html {
     display: block;
     text-align: center;
     line-height: 2.1em;
-    font-size: 2em;
-    height: 2.2em;
+    font-size: 3.8em;
+    /* height: 2.2em; */
 }
 
 }
