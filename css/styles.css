@@ -84,29 +84,62 @@ html {
 /* Стили для маленьких экранов (ширина менее 600px) */
 @media screen and (max-width: 600px) {
 
-    .button-setting {
-        width: 3.8em;
-        height: 3.8em;
-        border-radius: 20%;
-    }
+/* Общие стили для различных элементов */
+.item-menu {
+    background-color: #0a7808;
+    height: 1.5em;
+    font-size: 1em;
+    border-radius: 10%;
+    color:aliceblue;
+}
 
-    .button-setting-div {
-        padding: 0px;
-    }
+.item-menu-text {
+    background-color: #ece2e2;
+    color: black;
+}
 
-    .item-menu-text {
-        height: 4em;
-        font-size: 3.8em;
-        border-radius: 20%;
-        width: 300px;
-    }
+/* Используется в функции createLine для вывода пунктов записей */
+.button-poz {
+    display: inline;
+    margin-left: 0.5em;
+    height: 1.5em;
+    font-size: 1em;
+}
 
-    .item-menu {
-        height: 4em;
-        font-size: 3.8em;
-        border-radius: 20%;
-        margin-top: 10px;
-    }
+/* кнопка удаления позиции */
+.button-dell {
+    background-color: #ae0909;
+    height: 1.5em;
+    width: 1.5em;
+    color:#ece2e2;
+    font-size: 1em;
+    border-radius: 50%;
+    margin-top: 0.5em;
+}
 
+.off {
+    display: none;
+}
+
+/* класс для кнопки настроек */
+.button-setting {
+    margin: 0.3em;
+    height: 5em;
+    width: 5em;
+}
+
+.button-setting-div {
+    display: inline;
+    padding: 5px;
+}
+
+/* кнопка созранения настроек */
+.item-menu-setting-ok {
+    display: block;
+    text-align: center;
+    line-height: 2.4em;
+    font-size: 2em;
+    height: 2.6em;
+}
 
 }
