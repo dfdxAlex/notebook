@@ -11,14 +11,12 @@ function setSetting()
 
     // Проверить больше ли 0 шрифт и не равен ли он старому значению
     // Если шрифт не 0 и отличается от старого то изменить его в хранилище
-    // if (newFontSize>0 && newFontSize!=fontSiza) {
-    //     localStorage.setItem('fontSize', newFontSize);
-    //     fontSiza = newFontSize;
-    // }
     fontSiza = saveSetting(fontSiza);
+
     // Устанавливаем новый размер шрифта в px для корневого элемента
     document.documentElement.style.fontSize = fontSiza+"px";
 
+    // поместить значение шрифта в поле настроек.
     const fontSizeValue = document.getElementById('font-size-setting');
     fontSizeValue.value = fontSiza;
 }
