@@ -1,10 +1,11 @@
-function saveSetting()
+function saveSetting(fontSiza)
 {
     // Найти поле с размером шрифта
-    const fontSize = document.getElementById('font-size-setting');
+    const newFontSize = document.getElementById('font-size-setting').value;
     // Если размер шрифта введен, то записать его в хранилище
-    if (fontSize.value != '') {
-        localStorage.setItem('fontSize', fontSize.value);
+    if (newFontSize>0 && newFontSize!=fontSiza) {
+        localStorage.setItem('fontSize', newFontSize);
+        fontSiza = newFontSize;
     }
-
+    return fontSiza;
 }
