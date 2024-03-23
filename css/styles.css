@@ -14,7 +14,6 @@ html {
     grid-auto-flow: row; /* Это заставит элементы переноситься вниз при нехватке места */
 }
 
-@media screen and (min-width: 601px) {
 /* Общие стили для различных элементов */
 .item-menu {
     background-color: #0a7808;
@@ -63,7 +62,7 @@ html {
     font-size: 1em;
     height: 1.3em;
 }
-}
+
 
 
 .off {
@@ -87,58 +86,5 @@ html {
 /* Стили для маленьких экранов (ширина менее 600px) */
 @media screen and (max-width: 600px) {
 
-/* Общие стили для различных элементов */
-.item-menu {
-    background-color: #0a7808;
-    height: 2.1em;
-    font-size: 2em;
-    border-radius: 10%;
-    color:aliceblue;
-}
 
-.item-menu-text {
-    background-color: #ece2e2;
-    color: black;
-}
-
-/* Используется в функции createLine для вывода пунктов записей */
-.button-poz {
-    display: inline;
-    margin-left: 0.5em;
-    height: 3em;
-    font-size: 2.8em;
-}
-
-/* кнопка удаления позиции */
-.button-dell {
-    background-color: #ae0909;
-    height: 1.5em;
-    width: 1.5em;
-    color:#ece2e2;
-    font-size: 1em;
-    border-radius: 50%;
-    margin-top: 0.5em;
-}
-
-/* класс для кнопки настроек */
-.button-setting {
-    height: 4em;
-    width: 4em;
-    font-size: 3.8em;
-}
-
-.button-setting-div {
-    display: inline;
-    padding: 5px;
-}
-
-/* кнопка созранения настроек */
-.item-menu-setting-ok {
-    display: block;
-    text-align: center;
-    line-height: 2.1em;
-    font-size: 3.8em;
-    /* height: 2.2em; */
-}
-
-}
+} 
