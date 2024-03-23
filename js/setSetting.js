@@ -6,9 +6,6 @@ function setSetting()
         fontSiza = localStorage.getItem('fontSize');
     }
 
-    // Найти форму в которой может быть указан новый размер базового шрифта
-    // const newFontSize = document.getElementById('font-size-setting').value;
-
     // Проверить больше ли 0 шрифт и не равен ли он старому значению
     // Если шрифт не 0 и отличается от старого то изменить его в хранилище
     fontSiza = saveSetting(fontSiza);
