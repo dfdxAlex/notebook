@@ -4,6 +4,8 @@ function setSetting()
     // Если в хранилище есть инфа о размере шрифта
     if (localStorage.getItem('fontSize')!=null) {
         fontSiza = localStorage.getItem('fontSize');
+        const fontSizeValue = document.getElementById('font-size-setting');
+        fontSizeValue.value = fontSiza;
     }
 
     // Найти форму в которой может быть указан новый размер базового шрифта
