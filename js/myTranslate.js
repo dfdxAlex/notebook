@@ -5,7 +5,6 @@ function myTranslate()
 
     let buttonAdd = "";
 
-    // console.log('-----'+language);
     // Перебрать массив, содержащий переводы
     for (val of masForTranslate) {
         // получить из строки вспомогательный массив
