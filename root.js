@@ -1,6 +1,6 @@
 
 function Hello() {
-    return <h1>Hello World!</h1>;
+    return <h1>Hello</h1>;
   }
 
   const container = document.getElementById("root1");
