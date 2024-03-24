@@ -82,9 +82,7 @@ html {
 /* стили обрамления позиции */
 .create-pozition-fieldswt {
     border-radius: 20%;
-    /* width: 15em; */
 }
-
 
 /* Применить стили только для экранов с шириной менее 600px */
 @media only screen and (max-width: 600px) {
