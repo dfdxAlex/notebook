@@ -4,7 +4,16 @@ function createLine() {
     const pozition = document.getElementById('pozition');
     let innerOut='<ul>';
     for (val in mas) {
-        innerOut += '<button class="button-dell" onclick="dellPozition('+val+'); createLine();" type="button">X</button><li class="button-poz">'+mas[val]+'</li> <br>';
+        innerOut += '<fieldset class="create-pozition-fieldswt">' + 
+                       '<legend><label for="font-size-setting">Одноразовые</label></legend>' +
+                       '<button ' +
+                          'class="button-dell"' +
+                          'onclick="dellPozition('+val+');' +
+                          'createLine();"' +
+                          'type="button">X' + 
+                        '</button>' +
+                        '<li class="button-poz">'+mas[val]+'</li> <br>' +
+                    '</fieldset>';
     }
     innerOut += '</ul>';
     pozition.innerHTML = innerOut;
