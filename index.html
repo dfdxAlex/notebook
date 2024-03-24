@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>notebook</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/masForTranslate.js"></script>
+    <script src="js/myTranslate.js"></script>
     <script src="js/saveData.js"></script>
     <script src="js/dellPozition.js"></script>
     <script src="js/cleanBookList.js"></script>
     <script src="js/saveSetting.js"></script>
     <script src="js/createLine.js"></script>
     <script src="js/setSetting.js"></script>
-    <script src="js/saveLanguage.js"></script>
-    <script src="js/translate.js"></script>
+    <script src="js/loadSettingForForm.js"></script>
 </head>
 <body>
 
@@ -21,12 +22,21 @@
         <div class="button-setting-div">
 
             <!-- Кнопка входа в режим настроек -->
-            <button type="button" onclick="cleanBookList(1);" class="button-setting" id="button_setting">
-                <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 1280.000000 1278.000000"
-                preserveAspectRatio="xMidYMid meet">
+            <button 
+              type="button" 
+              onclick="cleanBookList(1);
+                       loadSettingForForm();
+                       myTranslate();" 
+              class="button-setting" 
+              id="button_setting"
+            >
+               <svg version="1.0" 
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 1280.000000 1278.000000"
+                    preserveAspectRatio="xMidYMid meet"
+                >
                <g transform="translate(0.000000,1278.000000) scale(0.100000,-0.100000)"
-               fill="#000000" stroke="none">
+                  fill="#000000" stroke="none">
                <path d="M7235 12766 c-16 -8 -42 -26 -56 -42 -14 -16 -153 -267 -309 -559
                -156 -291 -298 -553 -316 -582 -53 -84 -49 -83 -328 -94 l-247 -11 -53 26
                c-53 26 -59 34 -416 549 -200 287 -373 536 -386 553 -29 39 -80 64 -132 64
@@ -73,6 +83,7 @@
                 class="item-menu" 
                 onclick="saveData(); createLine();" 
                 type="button"
+                id="button-add"
               >
                 Добавить
               </button>
@@ -85,6 +96,7 @@
                   <legend>
                     <label 
                       for="font-size-setting"
+                      id="font-size-setting-label"
                     >
                       Высота шрифта
                     </label>
@@ -98,29 +110,39 @@
                 </fieldset>
                 <!-- Работа с языками-->
                 <fieldset class="field-set">
-                  <legend><label for="select-lenguage">Выбор языка</label></legend>
-                    <select 
-                      name="leng" 
-                      class="item-menu item-menu-text"
-                      id="select-lenguage"
+                  <legend>
+                    <label 
+                      for="select-lenguage"
+                      id="select-lenguage-label"
                     >
-                      <option id="lang-en" value="en">English</option>
-                      <option id="lang-ru" value="ru">Русский</option>
-                      <option id="lang-pl" value="pl">Polish</option>
-                      <option id="lang-ua" value="ua">Українська</option>
-                    </select>
+                      Выбор языка
+                    </label>
+                  </legend>
+                  <select 
+                    name="leng" 
+                    class="item-menu item-menu-text"
+                    id="select-lenguage"
+                  >
+                    <option id="lang-en" value="en">English</option>
+                    <option id="lang-ru" value="ru">Русский</option>
+                    <option id="lang-pl" value="pl">Polish</option>
+                    <option id="lang-ua" value="ua">Українська</option>
+                  </select>
                 </fieldset>
                 <!-- ---------------------- -->
 
                 <br>
                 <button  class="item-menu item-menu-setting-ok" 
-                         onclick="setSetting(); cleanBookList(0);" 
+                         onclick="saveSetting();
+                                  setSetting(); 
+                                  cleanBookList(0);
+                                  myTranslate();" 
                          type="button"
                          id="button-set-setting"
                 >
                     <span id="text-button-ok">Применить</span>
                 </button>
-            </div>
+        </div>
 
         </div>
     </form>
@@ -130,7 +152,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', createLine);
         document.addEventListener('DOMContentLoaded', setSetting);
-        document.addEventListener('DOMContentLoaded', translate);
+        document.addEventListener('DOMContentLoaded', myTranslate);
     </script>
 
 </body>
