@@ -10,6 +10,10 @@ function setSetting()
     // Если шрифт не 0 и отличается от старого то изменить его в хранилище
     fontSiza = saveSetting(fontSiza);
 
+    // если выбран другой язык, то функция записывает это в хранилище
+    // и помечает select правильным языком
+    saveLanguage();
+
     // Устанавливаем новый размер шрифта в px для корневого элемента
     document.documentElement.style.fontSize = fontSiza+"px";
 

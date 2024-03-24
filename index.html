@@ -11,6 +11,8 @@
     <script src="js/saveSetting.js"></script>
     <script src="js/createLine.js"></script>
     <script src="js/setSetting.js"></script>
+    <script src="js/saveLanguage.js"></script>
+    <script src="js/translate.js"></script>
 </head>
 <body>
 
@@ -67,30 +69,52 @@
             </button>
 
             <div class="on menu-add-ok" id="item-menu-ok" >
-                <button class="item-menu" 
-                        onclick="saveData(); createLine();" 
-                        type="button"
-                >
-                    Добавить
-                </button>
+              <button 
+                class="item-menu" 
+                onclick="saveData(); createLine();" 
+                type="button"
+              >
+                Добавить
+              </button>
             </div>
 
             <div class="off" id="item-menu-setting-ok">
                 <br>
                 <!--  Работа со шрифтом -->
                 <fieldset class="field-set">
-                <legend><label for="font-size-setting">Высота шрифта</label></legend>
-                <input class="item-menu item-menu-text" 
-                       type="number" 
-                       id="font-size-setting" 
-                       value=""
-                >
+                  <legend>
+                    <label 
+                      for="font-size-setting"
+                    >
+                      Высота шрифта
+                    </label>
+                  </legend>
+                  <input 
+                    class="item-menu item-menu-text" 
+                    type="number" 
+                    id="font-size-setting" 
+                    value=""
+                  >
+                </fieldset>
+                <!-- Работа с языками-->
+                <fieldset class="field-set">
+                  <legend><label for="select-lenguage">Выбор языка</label></legend>
+                    <select 
+                      name="leng" 
+                      class="item-menu item-menu-text"
+                      id="select-lenguage"
+                    >
+                      <option id="lang-en" value="en">English</option>
+                      <option id="lang-ru" value="ru">Русский</option>
+                      <option id="lang-pl" value="pl">Polish</option>
+                      <option id="lang-ua" value="ua">Українська</option>
+                    </select>
                 </fieldset>
                 <!-- ---------------------- -->
 
                 <br>
                 <button  class="item-menu item-menu-setting-ok" 
-                         onclick="cleanBookList(0); setSetting();" 
+                         onclick="setSetting(); cleanBookList(0);" 
                          type="button"
                          id="button-set-setting"
                 >
@@ -106,6 +130,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', createLine);
         document.addEventListener('DOMContentLoaded', setSetting);
+        document.addEventListener('DOMContentLoaded', translate);
     </script>
 
 </body>
