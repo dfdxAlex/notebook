@@ -8,7 +8,9 @@
 // 4 - украинский
 // 5 - русский
 let masForTranslate = [
+    "create-pozition-legend-label/Disposable/Jednorazowe/Одноразові/Одноразовые",
+    "text-button-ok/Apply/Stosować/Застосувати/Применить",
     "button-add/Add/Dodać/Додати/Добавить",
     "font-size-setting-label/Font height/Wysokość czcionki/Висота шрифту/Высота шрифта",
-    "select-lenguage-label/Language selection/Wybór języka/Вибір мови/Выбор языка",
+    "select-lenguage-label/Language selection/Wybór języka/Вибір мови/Выбор языка"
 ];

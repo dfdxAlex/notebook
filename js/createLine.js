@@ -5,7 +5,13 @@ function createLine() {
     let innerOut='<ul>';
     for (val in mas) {
         innerOut += '<fieldset class="create-pozition-fieldswt">' + 
-                       '<legend><label for="font-size-setting">Одноразовые</label></legend>' +
+                       '<legend>' +
+                         '<label '+
+                           'id="create-pozition-legend-label"' +
+                          '>'+
+                            'Одноразовые'+
+                         '</label>'+
+                        '</legend>' +
                        '<button ' +
                           'class="button-dell"' +
                           'onclick="dellPozition('+val+');' +
