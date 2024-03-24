@@ -82,5 +82,5 @@ html {
 /* стили обрамления позиции */
 .create-pozition-fieldswt {
     border-radius: 20%;
-    width: 15em;
+    /* width: 15em; */
 }
