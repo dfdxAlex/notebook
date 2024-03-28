@@ -1,8 +1,8 @@
 
 
-const bb = <h1>Тест бабел</h1>;
+// const bb = <h1>Тест бабел</h1>;
 
-const root = ReactDOM.createRoot(document.getElementById('pozition'));
+// const root = ReactDOM.createRoot(document.getElementById('pozition'));
 
-root.render(bb);
+// root.render(bb);
 
