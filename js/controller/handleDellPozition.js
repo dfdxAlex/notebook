@@ -3,11 +3,8 @@
 // строка передается через параметр val
 function handleDellPozition(val)
 {
-    const mas = loadDataWithStorage();
-    
-    mas.splice(val, 1); // Удалить элемент по индексу
-    // преобразовать массив в строку джейсон
-    let save = JSON.stringify(mas);
-    // записать новый массив в хранилище
-    localStorage.setItem('amatorDed_notePad_Data', save);
+    const mas = SyncDataArray.dataArray;
+    mas.splice(val, 1);
+    SyncDataArray.dataArray = mas;
+    SyncDataArray.saveArray();
 }

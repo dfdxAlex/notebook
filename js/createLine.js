@@ -1,7 +1,7 @@
 var masForTranslate = [];
 
 function createLine() {
-    const mas = loadDataWithStorage();
+    const mas = SyncDataArray.dataArray;
 
     const pozition = document.getElementById('pozition');
     let innerOut='<ul>';
