@@ -1,3 +1,5 @@
+// функция переключает программу между режимами работы и настроек
+
 function cleanBookList(regim)
 {
     const list_id = document.getElementById('pozition');

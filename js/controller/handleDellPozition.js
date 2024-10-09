@@ -1,4 +1,7 @@
-function dellPozition(val)
+// функция - обработчик события.
+// клик по крестику должен удалить из массива строку.
+// строка передается через параметр val
+function handleDellPozition(val)
 {
     // добыть данные из хранилища и поместить их в массив
     const mas = JSON.parse(localStorage.getItem('amatorDed_notePad_Data'));

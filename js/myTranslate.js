@@ -1,3 +1,5 @@
+
+
 function myTranslate()
 {
     // Узнать с каким языком работаем
@@ -31,8 +33,5 @@ function myTranslate()
                 buttonAdd.innerText = mas[4];
                 break;
         }
-
     }
-
-
 }

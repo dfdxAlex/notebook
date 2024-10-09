@@ -18,7 +18,7 @@ function createLine() {
                         '</legend>' +
                        '<button ' +
                           'class="button-dell"' +
-                          'onclick="dellPozition('+val+');' +
+                          'onclick="handleDellPozition('+val+');' +
                           'createLine();"' +
                           'type="button">X' + 
                         '</button>' +
@@ -27,5 +27,4 @@ function createLine() {
     }
     innerOut += '</ul>';
     pozition.innerHTML = innerOut;
-
 }
