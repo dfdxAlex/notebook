@@ -25,8 +25,8 @@ class SyncDataArray
         localStorage.setItem('amatorDed_notePad_Data', JSON.stringify(this.#dataArray));
     }
 
-    static loadArray()
+    static loadArray(nameArray = 'amatorDed_notePad_Data')
     {
-        this.#dataArray = JSON.parse(localStorage.getItem('amatorDed_notePad_Data'));
+        this.#dataArray = JSON.parse(localStorage.getItem(nameArray));
     }
 }
