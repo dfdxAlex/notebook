@@ -1,6 +1,8 @@
 var masForTranslate = [];
 
 function createLine() {
+
+    SyncDataArray.loadArray();
     const mas = SyncDataArray.dataArray;
 
     const pozition = document.getElementById('pozition');
