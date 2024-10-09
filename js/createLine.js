@@ -1,8 +1,8 @@
 var masForTranslate = [];
 
 function createLine() {
-    // добыть данные из хранилища и поместить их в массив
-    const mas = JSON.parse(localStorage.getItem('amatorDed_notePad_Data'));
+    const mas = loadDataWithStorage();
+
     const pozition = document.getElementById('pozition');
     let innerOut='<ul>';
 
@@ -28,3 +28,5 @@ function createLine() {
     innerOut += '</ul>';
     pozition.innerHTML = innerOut;
 }
+
+
