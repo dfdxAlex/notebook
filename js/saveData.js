@@ -15,7 +15,6 @@ function saveData()
     let returnTheNoteBookBool = theContentBool;
     theContentBool = theContentBool.toLowerCase().includes('/vma');
     returnTheNoteBookBool = returnTheNoteBookBool.toLowerCase().includes('/return');
-    // console.log(returnTheNoteBookBool);
     if (theContentInput!='') {
         if (!theContentBool && !returnTheNoteBookBool) {
             mas.push(theContentInput);
