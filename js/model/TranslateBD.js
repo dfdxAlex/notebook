@@ -2,7 +2,12 @@
 
 class TranslateBD
 {
-    static translateBD = [
+    static get translateArray()
+    {
+        return this._translateBD;
+    }
+
+    static _translateBD = [
         [
             'Название проекта',
             'Назва проекту',
@@ -202,9 +207,4 @@ class TranslateBD
             'Cleanliness in the closet'
         ],
     ];
-    
-    static get translateArray()
-    {
-        return this.translateBD;
-    }
 }
