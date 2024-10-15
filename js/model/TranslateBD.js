@@ -69,7 +69,7 @@ class TranslateBD
             'Cable lugs for the customer and Helawia'
         ],
         [
-            'Проверка комплектации шкафа согласно схеме ',
+            'Проверка комплектации шкафа согласно схеме',
             'Перевірка комплектації шафи згідно зі схемою',
             'Sprawdzenie ukladu szafy zgodnie ze schematem',
             'Checking the cabinet configuration according to the diagram'
@@ -99,7 +99,7 @@ class TranslateBD
             'Presence of warning stickers, L1, L2, L3, N, PE, on busbars/under voltage'
         ],
         [
-            'Порядок фаз: N, L1, L2, L3. Найвысшее положение N',
+            'Порядок фаз: N, L1, L2, L3',
             'Порядок фаз: N, L1, L2, L3. Найвище становище N',
             'Kolejność faz: N, L1, L2, L3. Najwyższa pozycja N',
             'Phase order: N, L1, L2, L3. The highest position N'
