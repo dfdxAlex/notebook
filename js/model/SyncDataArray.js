@@ -96,6 +96,7 @@ class SyncDataArray extends Translate
         this.#arrayVmaTester.push(Translate.translate('Проверка настроек настраиваемых приборов'));
         this.#arrayVmaTester.push(Translate.translate('Жёсткие мосты над включателями затянуты, по концам не торчит медь, описаны фазы.'));
         this.#arrayVmaTester.push(Translate.translate('Чистота в шкафу'));
+        this.#arrayVmaTester.push('***************************************');
         return this.#arrayVmaTester;
     }
 }
