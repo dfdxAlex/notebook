@@ -7,7 +7,55 @@ class TranslateBD
         return this._translateBD;
     }
 
-    static _translateBD = [
+    static _translateBD = [ //
+        [
+            '',
+            '',
+            '',
+            ''
+        ],
+        [
+            '',
+            '',
+            '',
+            ''
+        ],
+        [
+            '',
+            '',
+            '',
+            ''
+        ],
+        [
+            '',
+            '',
+            '',
+            ''
+        ],
+        [
+            '',
+            '',
+            '',
+            ''
+        ],
+        [
+            'Гайка металлическая с резьбой М12 затягивается моментом в 70 ньютон.',
+            'Гайка металева з різьбленням М12 затягується моментом 70 ньютон.',
+            'Metalową nakrętkę z gwintem M12 dokręca się momentem obrotowym 70 Newtonów.',
+            'The metal nut with M12 thread is tightened with a torque of 70 Newton.'
+        ],
+        [
+            'Гайка металлическая с резьбой М10 затягивается моментом в 50 ньютон.',
+            'Гайка металева з різьбленням М10 затягується моментом 50 ньютон.',
+            'Metalową nakrętkę z gwintem M10 dokręca się momentem obrotowym 50 Newtonów.',
+            'The metal nut with M10 thread is tightened with a torque of 50 Newton.'
+        ],
+        [
+            'Результат поиска',
+            'Результат пошуку',
+            'Wynik wyszukiwania',
+            'Search result'
+        ],
         [
             'Название проекта',
             'Назва проекту',

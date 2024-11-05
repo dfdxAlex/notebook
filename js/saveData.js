@@ -13,10 +13,16 @@ function saveData()
     //как блокнот.
     let theContentBool = name.value;
     let returnTheNoteBookBool = theContentBool;
+    let workingHelp = theContentBool;
+
     theContentBool = theContentBool.toLowerCase().includes('/vma');
     returnTheNoteBookBool = returnTheNoteBookBool.toLowerCase().includes('/return');
+    workingHelp = workingHelp.toLowerCase().includes('/help');
+
     if (theContentInput!='') {
-        if (!theContentBool && !returnTheNoteBookBool) {
+        if (!theContentBool 
+            && !returnTheNoteBookBool
+                && !workingHelp) {
             mas.push(theContentInput);
             SyncDataArray.dataArray = mas;
             SyncDataArray.saveArray();
@@ -25,6 +31,9 @@ function saveData()
             SyncDataArray.createNewStorage(theContentInput);
         } else if (returnTheNoteBookBool) {
             SyncDataArray.returnTheNoteBook();
+        } else if (workingHelp) {
+            // console.log(DataSheet.searchInfoDataSheet(name.value));
+            DataSheet.viewCard(name.value);
         }
     }
     

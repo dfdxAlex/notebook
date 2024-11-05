@@ -34,9 +34,9 @@ class SyncDataArray extends Translate
 
     static createNewStorage(str)
     {
+        // создает страницу с текстом если в строке есть /vma
         str = str.replace(/\/vma/gi, '');
         str = str.trim();
-
         // поместить массив для тестера на место записной книги
         this.dataArray = this.createNewTest(str);
         this.saveArray();
