@@ -1,11 +1,8 @@
-
-
+// старая функция переводчика, работает но не развивается
 function myTranslate()
 {
     // Узнать с каким языком работаем
     const language = localStorage.getItem('language');
-
-    let buttonAdd = "";
 
     // Перебрать массив, содержащий переводы
     for (val of masForTranslate) {
@@ -13,7 +10,7 @@ function myTranslate()
         let mas = val.split("/");
 
         // выбрать элемент, который нужно перевести, из вспомогательного массива
-        buttonAdd = document.getElementById(mas[0]);
+        let buttonAdd = document.getElementById(mas[0]);
 
         switch (language) {
             case "en":

@@ -32,7 +32,6 @@ function saveData()
         } else if (returnTheNoteBookBool) {
             SyncDataArray.returnTheNoteBook();
         } else if (workingHelp) {
-            // console.log(DataSheet.searchInfoDataSheet(name.value));
             DataSheet.viewCard(name.value);
         }
     }

@@ -8,33 +8,31 @@
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-   
 
     <link rel="stylesheet" href="css/styles.css">
+    
+    <script src="app.js"></script>
 
-    <script src="js/test.js" type="text/babel"></script>
-
-    <script src="js/myTranslate.js"></script>
-    <script src="js/saveData.js"></script>
     <script src="js/controller/handleDellPozition.js"></script>
-    <script src="js/cleanBookList.js"></script>
-    <script src="js/saveSetting.js"></script>
+    <script src="js/controller/cleanBookList.js"></script>
+    
     <script src="js/view/createLine.js"></script>
+    <script src="js/view/buttonSetSetting.js"></script>
+
+    <script src="js/model/saveData.js"></script>
     <script src="js/model/TranslateBD.js"></script>
     <script src="js/model/Translate.js"></script>
-
+    <script src="js/model/saveSetting.js"></script>
     <script src="js/model/dataSheetBD.js"></script>
     <script src="js/model/DataSheet.js"></script>
     <script src="js/model/SyncDataArray.js"></script>
-
-    <script src="js/masForTranslate.js"></script>
-    <script src="js/setSetting.js"></script>
-    <script src="js/loadSettingForForm.js"></script>
-
-    
+    <script src="js/model/setSetting.js"></script>
+    <script src="js/model/loadSettingForForm.js"></script>
+    <script src="js/model/masForTranslate.js"></script>
+    <script src="js/model/myTranslate.js"></script>
 </head>
-<body>
 
+<body>
     <div id="menu"></div>
     <div id="modal"></div>
     <form action="#" class="container-menu">
@@ -46,6 +44,7 @@
               type="button" 
               onclick="cleanBookList(1);
                        loadSettingForForm();
+                       buttonSetSetting();
                        myTranslate();" 
               class="button-setting" 
               id="button_setting"
@@ -151,32 +150,17 @@
                     <option id="lang-ua" value="ua">Українська</option>
                   </select>
                 </fieldset>
-                <!--************************************888-->
-
-                <br>
-                <button  class="item-menu item-menu-setting-ok" 
-                         onclick="saveSetting();
-                                  setSetting(); 
-                                  cleanBookList(0);
-                                  myTranslate();" 
-                         type="button"
-                         id="button-set-setting"
-                >
-                    <span id="text-button-ok">Применить</span>
-                </button>
+                <!--************************************-->
+                <div id="button-set-setting"></div>
         </div>
-
         </div>
     </form>
 
     <div id="pozition" class="on"></div>
+</body>
 
     <script>
-        document.addEventListener('DOMContentLoaded', createLine);
-        document.addEventListener('DOMContentLoaded', setSetting);
-        document.addEventListener('DOMContentLoaded', myTranslate);
+      document.addEventListener('DOMContentLoaded', app);
     </script>
-
-</body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
