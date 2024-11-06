@@ -18,6 +18,7 @@
     
     <script src="js/view/createLine.js"></script>
     <script src="js/view/buttonSetSetting.js"></script>
+    <script src="js/view/lenguageSelect.js"></script>
 
     <script src="js/model/saveData.js"></script>
     <script src="js/model/TranslateBD.js"></script>
@@ -43,6 +44,7 @@
             <button 
               type="button" 
               onclick="cleanBookList(1);
+                       lenguageSelect();
                        loadSettingForForm();
                        buttonSetSetting();
                        myTranslate();" 
@@ -129,27 +131,8 @@
                     value=""
                   >
                 </fieldset>
-                <!-- Работа с языками-->
-                <fieldset class="field-set">
-                  <legend>
-                    <label 
-                      for="select-lenguage"
-                      id="select-lenguage-label"
-                    >
-                      Выбор языка
-                    </label>
-                  </legend>
-                  <select 
-                    name="leng" 
-                    class="item-menu item-menu-text"
-                    id="select-lenguage"
-                  >
-                    <option id="lang-en" value="en">English</option>
-                    <option id="lang-ru" value="ru">Русский</option>
-                    <option id="lang-pl" value="pl">Polish</option>
-                    <option id="lang-ua" value="ua">Українська</option>
-                  </select>
-                </fieldset>
+
+                <div id="language-select"></div>
                 <!--************************************-->
                 <div id="button-set-setting"></div>
         </div>
