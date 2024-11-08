@@ -21,7 +21,8 @@ function createLine() {
                        '<button ' +
                           'class="button-dell"' +
                           'onclick="handleDellPozition('+val+');' +
-                          'createLine();"' +
+                          'createLine();' +
+                          'myTranslate();"' +
                           'type="button">X' + 
                         '</button>' +
                         '<li class="button-poz">'+mas[val]+'</li> <br>' +

@@ -33,6 +33,36 @@ class TranslateBD
             ''
         ],
         [
+            '',
+            '',
+            '',
+            ''
+        ],
+        [
+            '',
+            '',
+            '',
+            ''
+        ],
+        [
+            'Название шкафа соответствует названию на наклейке со штрих-кодом.',
+            'Назва шафи відповідає назві на наклейці зі штрих-кодом.',
+            'Nazwa szafki odpowiada nazwie na naklejce z kodem kreskowym.',
+            'The name of the cabinet corresponds to the name on the barcode sticker.'
+        ],
+        [
+            'Нет касания проводов на корпус.',
+            'Немає торкання дротів на корпус.',
+            'Żadnych przewodów dotykających korpusu.',
+            'No wires touching the body.'
+        ],
+        [
+            'Лицевая панель на призмах',
+            'Лицьова панель на призмах',
+            'Panel przedni na pryzmatach',
+            'Front panel on prisms'
+        ],
+        [
             'Закрутить все винты',
             'Закрутити всі гвинти',
             'Dokręć wszystkie śruby',
