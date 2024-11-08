@@ -26,7 +26,7 @@ function createLine() {
         //                  </button>
         //                 <li class="button-poz">${mas[val]}</li><br>
         //              </fieldset>`;
-        innerOut += `<fieldset class="create-pozition-fieldswt" style="border: 1px solid #ced4da; border-radius: 8px; padding: 15px; margin-bottom: 15px; max-width: 100%; width: 100%;">
+        innerOut += `<fieldset class="create-pozition-fieldswt" style="border: 1px solid #ced4da; border-radius: 8px; padding: 15px; margin-bottom: 15px; max-width: 100%; width: 100%; background-color: ${val % 2 === 0 ? '#f8f9fa' : '#e9ecef'};">
         <legend style="font-weight: bold; color: #495057;">
             <label id="create-pozition-legend-label${val}" style="font-size: 1.2em; color: #28a745;">
                 Одноразовые
@@ -43,6 +43,7 @@ function createLine() {
             <li class="button-poz" style="font-size: 1em; color: #28a745;">${mas[val]}</li>
         </ul>
      </fieldset>`;
+
 
 
     }
