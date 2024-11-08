@@ -7,7 +7,7 @@
 // данные записанные в записной книжке
 class SyncDataArray extends Translate
 {
-    static #dataArray = [];
+    static #dataArray = JSON.parse(localStorage.getItem('amatorDed_notePad_Data'));
     static #arrayVmaTester = [];
     static #dataTime;
 
@@ -73,13 +73,11 @@ class SyncDataArray extends Translate
         this.#arrayVmaTester.push(Translate.translate('Проверка вкладыша замка (в проекте)'));
         this.#arrayVmaTester.push(Translate.translate('Ключи в шкафу'));
         this.#arrayVmaTester.push(Translate.translate('Кабельные наконечники для клиента и Helawia'));
-        this.#arrayVmaTester.push(Translate.translate('Проверка комплектации шкафа согласно схеме'));
         this.#arrayVmaTester.push(Translate.translate('Названия и моменты на оборудовании'));
         this.#arrayVmaTester.push(Translate.translate('Соответствие Граверок с оборудованием'));
         this.#arrayVmaTester.push(Translate.translate('Полное описание всех зуг и прочих колодок'));
         this.#arrayVmaTester.push(Translate.translate('Наличие предупреждающих наклеек, L1, L2, L3, N, PE, на бусбарах/под напряжением'));
         this.#arrayVmaTester.push(Translate.translate('Linergy, INS, NSX(rowniez pod oslonami) sprawdzenie oslon'));
-        this.#arrayVmaTester.push(Translate.translate('Порядок фаз: N, L1, L2, L3'));
         this.#arrayVmaTester.push(Translate.translate('Присутствие красных граверек на главном включателе, освещения, и перенапряжения'));
         this.#arrayVmaTester.push(Translate.translate('Наличие всех наклеек'));
         this.#arrayVmaTester.push(Translate.translate('Список нехватки WS3 на дверях.'));
@@ -89,12 +87,16 @@ class SyncDataArray extends Translate
         this.#arrayVmaTester.push(Translate.translate('Красный лак на соединениях заземляющих шин и нулевых, на заземлении главной плиты'));
         this.#arrayVmaTester.push(Translate.translate('Монтаж и подключение главной запитки'));
         this.#arrayVmaTester.push(Translate.translate('Очередность фаз'));
+        this.#arrayVmaTester.push(Translate.translate('Укомплектованость описания проводов и правильное направление'));
+        this.#arrayVmaTester.push(Translate.translate('Проверка комплектации шкафа согласно схеме'));
         this.#arrayVmaTester.push(Translate.translate('Соответствие сечений и цветов проводов'));
         this.#arrayVmaTester.push(Translate.translate('Укомплектованость описания проводов и правильное направление'));
         this.#arrayVmaTester.push(Translate.translate('Правильное размещение проводов в зугах и тулейках'));
         this.#arrayVmaTester.push(Translate.translate('Тулейки в зажимах слева-снизу или справа-сверху от винта'));
+        this.#arrayVmaTester.push(Translate.translate('Порядок фаз: N, L1, L2, L3'));
         this.#arrayVmaTester.push(Translate.translate('Проверка настроек настраиваемых приборов'));
         this.#arrayVmaTester.push(Translate.translate('Жёсткие мосты над включателями затянуты, по концам не торчит медь, описаны фазы.'));
+        this.#arrayVmaTester.push(Translate.translate('Закрутить все винты'));
         this.#arrayVmaTester.push(Translate.translate('Чистота в шкафу'));
         this.#arrayVmaTester.push('***************************************');
         return this.#arrayVmaTester;

@@ -11,7 +11,7 @@ class Translate extends TranslateBD
     static translate(str)
     {
         if (this.lang === null) this.lang = 'en';
-        for(val of super.translateArray) {
+        for(let val of super.translateArray) {
             if (str === val[0]) {
                 switch (this.lang) {
                     case "en":

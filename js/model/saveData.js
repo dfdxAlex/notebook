@@ -1,7 +1,8 @@
 function saveData() 
 {
-    // добыть данные из класса и поместить в рабочий массив
+    // добыть данные из класса и поместить в рабочий массив 
     let mas = SyncDataArray.dataArray;
+    //console.log(mas);
 
     // найти форму с текстом
     const name = document.getElementById('name');
@@ -23,10 +24,12 @@ function saveData()
         if (!theContentBool 
             && !returnTheNoteBookBool
                 && !workingHelp) {
+
             mas.push(theContentInput);
             SyncDataArray.dataArray = mas;
             SyncDataArray.saveArray();
             name.value='';
+
         } else if (theContentBool) {
             SyncDataArray.createNewStorage(theContentInput);
         } else if (returnTheNoteBookBool) {

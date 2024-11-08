@@ -5,6 +5,7 @@ function app()
         createLine();
         setSetting();
         myTranslate();
+        saveData(); 
     });
 
 }
