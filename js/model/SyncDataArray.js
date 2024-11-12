@@ -90,7 +90,6 @@ class SyncDataArray extends Translate
         this.#arrayVmaTester.push(Translate.translate('Красный лак на соединениях заземляющих шин и нулевых, на заземлении главной плиты'));
         this.#arrayVmaTester.push(Translate.translate('Монтаж и подключение главной запитки'));
         this.#arrayVmaTester.push(Translate.translate('Укомплектованость описания проводов и правильное направление'));
-        this.#arrayVmaTester.push(Translate.translate('Укомплектованость описания проводов и правильное направление'));
         this.#arrayVmaTester.push(Translate.translate('Правильное размещение проводов в зугах и тулейках'));
         this.#arrayVmaTester.push(Translate.translate('Тулейки в зажимах слева-снизу или справа-сверху от винта'));
         this.#arrayVmaTester.push(Translate.translate('Порядок фаз: N, L1, L2, L3'));
