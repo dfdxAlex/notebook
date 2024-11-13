@@ -73,9 +73,162 @@ class TranslateBD
   </div>
 </div>
 `,
-            ``,
-            ``,
-            ``
+            `<div class="card" style="max-width: 600px; margin: 20px auto; padding: 20px; border: 1px solid #dee2e6;">
+  <div class="card-body">
+    <h5 class="card-title" style="font-weight: bold;">Налаштування таймера EBECO EB-Therm 800</h5>
+    
+    <h6 class="card-subtitle mb-2 text-muted">Управління:</h6>
+    <ul class="list-group list-group-flush" style="margin-bottom: 15px;">
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        <strong>Бокові стрілки</strong> — кнопки для гортання меню або зміни даних.
+      </li>
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        <strong>Середня кнопка</strong> обирає активний пункт меню або підтверджує значення.
+      </li>
+    </ul>
+    
+    <h6 class="card-subtitle mb-2 text-muted">Режим перегляду налаштувань</h6>
+    <p class="card-text" style="margin-bottom: 15px;">
+      Це просте гортання стрілками при запуску пристрою або виході з меню налаштувань.
+    </p>
+    
+    <p class="card-text" style="margin-bottom: 15px;">
+      Таймер працює з двома датчиками. Якщо використовується лише один датчик, другий слід відключити в налаштуваннях.
+    </p>
+    
+    <h6 class="card-subtitle mb-2 text-muted">Вхід в меню налаштувань:</h6>
+    <ul class="list-group list-group-flush" style="margin-bottom: 15px;">
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        Натискайте середню кнопку, поки не з'явиться <code>"main menu"</code>.
+      </li>
+    </ul>
+    
+    <h6 class="card-subtitle mb-2 text-muted">Деякі пункти меню:</h6>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        <strong>Exit</strong> — вихід з меню.
+      </li>
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        <strong>TEMP</strong> — вхід в меню налаштування температури.
+        <ul>
+          <li>Set Temp — стрілками задайте температуру, яку термометр має підтримувати.</li>
+        </ul>
+      </li>
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        <strong>System-Sensor</strong> — налаштування комбінації датчиків. Наприклад, при використанні одного датчика оберіть варіант, де <code>A-Room, B-off</code>.
+      </li>
+    </ul>
+    
+    <p class="card-text" style="margin-top: 15px;">
+      Система застосовує зміни при виході з редагованого меню.
+    </p>
+  </div>
+</div>
+`,
+            `<div class="card" style="max-width: 600px; margin: 20px auto; padding: 20px; border: 1px solid #dee2e6;">
+  <div class="card-body">
+    <h5 class="card-title" style="font-weight: bold;">Ustawienia timera EBECO EB-Therm 800</h5>
+    
+    <h6 class="card-subtitle mb-2 text-muted">Sterowanie:</h6>
+    <ul class="list-group list-group-flush" style="margin-bottom: 15px;">
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        <strong>Boczne strzałki</strong> — przyciski do przewijania menu lub zmiany danych.
+      </li>
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        <strong>Środkowy przycisk</strong> wybiera aktywną opcję menu lub zatwierdza wartość.
+      </li>
+    </ul>
+    
+    <h6 class="card-subtitle mb-2 text-muted">Tryb przeglądania ustawień</h6>
+    <p class="card-text" style="margin-bottom: 15px;">
+      To proste przewijanie strzałkami podczas uruchamiania urządzenia lub wychodzenia z menu ustawień.
+    </p>
+    
+    <p class="card-text" style="margin-bottom: 15px;">
+      Timer współpracuje z dwoma czujnikami. Jeśli używany jest tylko jeden czujnik, drugi należy wyłączyć w ustawieniach.
+    </p>
+    
+    <h6 class="card-subtitle mb-2 text-muted">Wejście do menu ustawień:</h6>
+    <ul class="list-group list-group-flush" style="margin-bottom: 15px;">
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        Naciśnij środkowy przycisk, aż pojawi się <code>"main menu"</code>.
+      </li>
+    </ul>
+    
+    <h6 class="card-subtitle mb-2 text-muted">Niektóre pozycje menu:</h6>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        <strong>Exit</strong> — wyjście z menu.
+      </li>
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        <strong>TEMP</strong> — wejście do menu ustawień temperatury.
+        <ul>
+          <li>Set Temp — strzałkami ustaw temperaturę, którą termostat ma utrzymać.</li>
+        </ul>
+      </li>
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        <strong>System-Sensor</strong> — ustawienia kombinacji czujników. Na przykład, przy jednym czujniku wybierz opcję <code>A-Room, B-off</code>.
+      </li>
+    </ul>
+    
+    <p class="card-text" style="margin-top: 15px;">
+      System wprowadza zmiany po wyjściu z edytowanego menu.
+    </p>
+  </div>
+</div>
+`,
+            `<div class="card" style="max-width: 600px; margin: 20px auto; padding: 20px; border: 1px solid #dee2e6;">
+  <div class="card-body">
+    <h5 class="card-title" style="font-weight: bold;">EBECO EB-Therm 800 Timer Settings</h5>
+    
+    <h6 class="card-subtitle mb-2 text-muted">Control:</h6>
+    <ul class="list-group list-group-flush" style="margin-bottom: 15px;">
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        <strong>Side arrows</strong> — buttons for navigating the menu or changing data.
+      </li>
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        <strong>Middle button</strong> selects the active menu item or confirms the value.
+      </li>
+    </ul>
+    
+    <h6 class="card-subtitle mb-2 text-muted">Settings View Mode</h6>
+    <p class="card-text" style="margin-bottom: 15px;">
+      This is simple scrolling with arrows when the device starts or exits the settings menu.
+    </p>
+    
+    <p class="card-text" style="margin-bottom: 15px;">
+      The timer works with two sensors. If only one sensor is used, the second one should be disabled in the settings.
+    </p>
+    
+    <h6 class="card-subtitle mb-2 text-muted">Entering the Settings Menu:</h6>
+    <ul class="list-group list-group-flush" style="margin-bottom: 15px;">
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        Press the middle button until <code>"main menu"</code> appears.
+      </li>
+    </ul>
+    
+    <h6 class="card-subtitle mb-2 text-muted">Some Menu Options:</h6>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        <strong>Exit</strong> — exit the menu.
+      </li>
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        <strong>TEMP</strong> — enter the temperature settings menu.
+        <ul>
+          <li>Set Temp — use arrows to set the temperature the thermostat should maintain.</li>
+        </ul>
+      </li>
+      <li class="list-group-item" style="border: 0; padding-left: 0;">
+        <strong>System-Sensor</strong> — set the sensor combination. For example, with one sensor, select <code>A-Room, B-off</code>.
+      </li>
+    </ul>
+    
+    <p class="card-text" style="margin-top: 15px;">
+      The system applies changes when exiting the edited menu.
+    </p>
+  </div>
+</div>
+`
         ],
         [
             'Проверка под электричеством',
