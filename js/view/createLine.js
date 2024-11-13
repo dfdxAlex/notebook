@@ -6,6 +6,11 @@ function createLine() {
     const mas = SyncDataArray.dataArray;
 
     const pozition = document.getElementById('pozition');
+    pozition.onclick = () => {
+        createLine(); 
+        myTranslate();
+    };
+
     let innerOut='<ul>';
 
     for (val in mas) {
@@ -18,7 +23,7 @@ function createLine() {
         </legend>
         <button
             class="btn btn-danger btn-sm"
-            onclick="handleDellPozition(${val}); createLine(); myTranslate();"
+            onclick="handleDellPozition(${val});"
             type="button"
             style="float: right; margin-top: -10px; margin-right: -10px; font-size: 0.8em; padding: 0.25em 0.5em;">
             X
