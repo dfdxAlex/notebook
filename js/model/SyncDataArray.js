@@ -98,6 +98,7 @@ class SyncDataArray extends Translate
         this.#arrayVmaTester.push(Translate.translate('Очередность фаз'));
         this.#arrayVmaTester.push(Translate.translate('Проверка комплектации шкафа согласно схеме'));
         this.#arrayVmaTester.push(Translate.translate('Соответствие сечений и цветов проводов'));
+        this.#arrayVmaTester.push(Translate.translate('Проверка под электричеством'));
         this.#arrayVmaTester.push(Translate.translate('Закрутить все винты'));
         this.#arrayVmaTester.push(Translate.translate('Чистота в шкафу'));
         this.#arrayVmaTester.push('***************************************');
