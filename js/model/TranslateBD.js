@@ -9,16 +9,46 @@ class TranslateBD
 
     static _translateBD = [ //
         [
-            '',
-            '',
-            '',
-            ''
+            ``,
+            ``,
+            ``,
+            ``
         ],
         [
-            '',
-            '',
-            '',
-            ''
+            ``,
+            ``,
+            ``,
+            ``
+        ],
+        [
+            ``,
+            ``,
+            ``,
+            ``
+        ],
+        [
+            ``,
+            ``,
+            ``,
+            ``
+        ],
+        [
+            `Дополнительная визуальная проверка N и F1, F2, F3 вверх-низ`,
+            `Додаткова візуальна перевірка N та F1, F2, F3 вгору-низ`,
+            `Dodatkowa kontrola wzrokowa N i F1, F2, F3 w górę i w dół`,
+            `Additional visual check N and F1, F2, F3 up-down`
+        ],
+        [
+            `Номерки на всех дополнительных коммуникационных устройствах: разделители LAN, USB ...`,
+            `Номери на всіх додаткових комунікаційних пристроях: роздільники LAN, USB...`,
+            `Numery na wszystkich dodatkowych urządzeniach komunikacyjnych: rozdzielacze LAN, USB...`,
+            `Numbers on all additional communication devices: LAN separators, USB ...`
+        ],
+        [
+            'Номерки на всех кабелях типа LAN и других информационных',
+            'Номери на всіх кабелях типу LAN та інших інформаційних',
+            'Numery na wszystkich kablach typu LAN i inne informacje',
+            'Numbers on all LAN and other information cables'
         ],
         [
             `<div class="card" style="max-width: 600px; margin: 20px auto; padding: 20px; border: 1px solid #dee2e6;">

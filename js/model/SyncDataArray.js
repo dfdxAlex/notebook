@@ -90,6 +90,8 @@ class SyncDataArray extends Translate
         this.#arrayVmaTester.push(Translate.translate('Красный лак на соединениях заземляющих шин и нулевых, на заземлении главной плиты'));
         this.#arrayVmaTester.push(Translate.translate('Монтаж и подключение главной запитки'));
         this.#arrayVmaTester.push(Translate.translate('Укомплектованость описания проводов и правильное направление'));
+        this.#arrayVmaTester.push(Translate.translate('Номерки на всех дополнительных коммуникационных устройствах: разделители LAN, USB ...'));
+        this.#arrayVmaTester.push(Translate.translate('Номерки на всех кабелях типа LAN и других информационных'));
         this.#arrayVmaTester.push(Translate.translate('Правильное размещение проводов в зугах и тулейках'));
         this.#arrayVmaTester.push(Translate.translate('Тулейки в зажимах слева-снизу или справа-сверху от винта'));
         this.#arrayVmaTester.push(Translate.translate('Порядок фаз: N, L1, L2, L3'));
@@ -99,6 +101,7 @@ class SyncDataArray extends Translate
         this.#arrayVmaTester.push(Translate.translate('Проверка комплектации шкафа согласно схеме'));
         this.#arrayVmaTester.push(Translate.translate('Соответствие сечений и цветов проводов'));
         this.#arrayVmaTester.push(Translate.translate('Проверка под электричеством'));
+        this.#arrayVmaTester.push(Translate.translate('Дополнительная визуальная проверка N и F1, F2, F3 вверх-низ'));
         this.#arrayVmaTester.push(Translate.translate('Закрутить все винты'));
         this.#arrayVmaTester.push(Translate.translate('Чистота в шкафу'));
         this.#arrayVmaTester.push('***************************************');
