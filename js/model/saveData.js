@@ -15,15 +15,18 @@ function saveData()
     let theContentBool = name.value;
     let returnTheNoteBookBool = theContentBool;
     let workingHelp = theContentBool;
+    let cabinet = theContentBool;
 
     theContentBool = theContentBool.toLowerCase().includes('/vma');
     returnTheNoteBookBool = returnTheNoteBookBool.toLowerCase().includes('/return');
     workingHelp = workingHelp.toLowerCase().includes('/help');
+    cabinet = cabinet.toLowerCase().includes('/cabinet');
 
     if (theContentInput!='') {
         if (!theContentBool 
             && !returnTheNoteBookBool
-                && !workingHelp) {
+                && !workingHelp
+                    && !cabinet) {
 
             mas.push(theContentInput);
             SyncDataArray.dataArray = mas;
@@ -36,7 +39,9 @@ function saveData()
             SyncDataArray.returnTheNoteBook();
         } else if (workingHelp) {
             DataSheet.viewCard(name.value);
-        }
+        } else if (cabinet) {
+            SyncDataArray.createNewCabitet(theContentInput);
+        } 
     }
     
 }

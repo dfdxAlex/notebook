@@ -21,16 +21,16 @@ class TranslateBD
             ``
         ],
         [
-            ``,
-            ``,
-            ``,
-            ``
+            `Медные шайбы на красных шинах где сечение провода меньше 25 мм.`,
+            `Мідні шайби на червоних шинах, де перетин дроту менше 25 мм.`,
+            `Podkładki miedziane na czerwonych szynach zbiorczych, gdzie przekrój drutu jest mniejszy niż 25 mm.`,
+            `Copper washers on red buses where the wire cross-section is less than 25 mm.`
         ],
         [
-            ``,
-            ``,
-            ``,
-            ``
+            `Проверить наличие контактных шайб где заземление на краске.`,
+            `Перевірити наявність контактних шайб, де заземлення на фарбі.`,
+            `Sprawdź obecność podkładek kontaktowych w miejscach, w których znajduje się masa na lakierze.`,
+            `Check for contact washers where the ground is on the paint.`
         ],
         [
             `Дополнительная визуальная проверка N и F1, F2, F3 вверх-низ`,
