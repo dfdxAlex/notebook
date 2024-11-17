@@ -81,6 +81,7 @@ class SyncDataArray extends Translate
 
     static createNewArrayCabinet(str)
     {
-        return this.#arrayCabinet = arrayCabinet(str);
+        this.#arrayCabinet = arrayCabinet(str);
+        return this.#arrayCabinet;
     }
 }
