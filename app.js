@@ -5,7 +5,8 @@ function app()
         createLine();
         setSetting();
         myTranslate();
-        saveData(); 
+        saveData();
+        buttonsSettingAdd(); 
     });
 
 }

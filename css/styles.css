@@ -48,9 +48,11 @@ html {
 
 /* класс для кнопки настроек */
 .button-setting {
-    height: 2.5em;
-    width: 2.5em;
+    height: 2em;
+    width: 2em;
     padding: 0px;
+    border: 0px;
+    background-color: white;
 }
 
 /* кнопка созранения настроек */

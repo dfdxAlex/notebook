@@ -1,4 +1,5 @@
 // функция переключает программу между режимами работы и настроек
+// навести порядок. Функция устарела и дублируется джаваскриптом
 
 function cleanBookList(regim)
 {
@@ -22,6 +23,8 @@ function cleanBookList(regim)
         input_text_pozition.style.display = "none";
 
         button_setting.style.display = "none";
+
+        // setFontSize(); 
     // Если в функцию приходит false то:
     // показать главное поле с позициями
     // показать кнопку добавления
