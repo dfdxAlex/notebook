@@ -8,17 +8,65 @@ class TranslateBD
     }
 
     static _translateBD = [ //
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        `Зеленые BUS-бары, проверить чтобы тулейка выходила сверху и не зажимался пластик.`,
+        `Зелені BUS-бари, перевірити, щоб тулейка виходила зверху і не затискався пластик.`,
+        `Zielone listwy BUS, sprawdź czy tiul wychodzi od góry i czy plastik nie jest zaciśnięty.`,
+        `Green BUS bars, check that the connector comes out from the top and the plastic is not pinched.`
+      ],
+      [
+        `Стягивающие шкаф бляхи внизу прикручены на один финт по середине.`,
+        `Стягуючи шафу бляхи внизу прикручені на один фінт посередині.`,
+        `Płytki łączące szafkę od dołu są przykręcone jednym elementem pośrodku.`,
+        `The plates that hold the cabinet together at the bottom are screwed on with one twist in the middle.`
+      ],
+      [
+        `Призма: прикручены все винты на пластиковых уголках. Углы - подставки под лицевую панель.`,
+        `Призма: прикручені усі гвинти на пластикових куточках. Кути – підставки під лицьову панель.`,
+        `Pryzmat: wszystkie śruby na plastikowych narożnikach są przykręcone. Narożniki stanowią podstawki pod panel przedni.`,
+        `Prism: all screws are screwed on the plastic corners. The corners are supports for the front panel.`
+      ],
         [
-            ``,
-            ``,
-            ``,
-            ``
+            `Заклепки на дверях и других элементах не повреждены.`,
+            `Заклепки на дверях та інших елементах не пошкоджені.`,
+            `Nity na drzwiach i pozostałych elementach są nienaruszone.`,
+            `The rivets on the doors and other elements are not damaged.`
         ],
         [
-            ``,
-            ``,
-            ``,
-            ``
+            `Экраны всех экранированных кабелей подключены на землю.`,
+            `Екрани всіх кабелів, що екрануються, підключені на землю.`,
+            `Ekrany wszystkich kabli ekranowanych są uziemione.`,
+            `The shields of all shielded cables are connected to ground.`
         ],
         [
             `Медные шайбы на красных шинах где сечение провода меньше 25 мм.`,

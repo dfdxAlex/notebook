@@ -4,11 +4,15 @@ function arrayVmaTester(str)
     arrayVmaTester.push(Translate.translate('Название проекта')+' : '+str);
     arrayVmaTester.push(Translate.translate('Правильная установка названия шкафа'));
     arrayVmaTester.push(Translate.translate('Название шкафа соответствует названию на наклейке со штрих-кодом.'));
+    arrayVmaTester.push('QR-code');
     arrayVmaTester.push(Translate.translate('Цвет гравировки данные'));
     arrayVmaTester.push(Translate.translate('Названия кнопок, счётчиков, включателей'));
     arrayVmaTester.push(Translate.translate('Тип питания, под напряжением, опасно'));
     arrayVmaTester.push(Translate.translate('Проверка повреждений'));
     arrayVmaTester.push(Translate.translate('Сборка шкафа и недостатки'));
+    arrayVmaTester.push(Translate.translate('Заклепки на дверях и других элементах не повреждены.'));
+    arrayVmaTester.push(Translate.translate('Призма: прикручены все винты на пластиковых уголках. Углы - подставки под лицевую панель.'));
+    arrayVmaTester.push(Translate.translate('Стягивающие шкаф бляхи внизу прикручены на один финт по середине.'));
     arrayVmaTester.push(Translate.translate('Лицевая панель на призмах'));
     arrayVmaTester.push(Translate.translate('Нет касания проводов на корпус.'));
     arrayVmaTester.push(Translate.translate('Проверка вкладыша замка (в проекте)'));
@@ -32,8 +36,11 @@ function arrayVmaTester(str)
     arrayVmaTester.push(Translate.translate('Укомплектованость описания проводов и правильное направление'));
     arrayVmaTester.push(Translate.translate('Номерки на всех дополнительных коммуникационных устройствах: разделители LAN, USB ...'));
     arrayVmaTester.push(Translate.translate('Номерки на всех кабелях типа LAN и других информационных'));
+    arrayVmaTester.push(Translate.translate('Экраны всех экранированных кабелей подключены на землю.'));
+    
     arrayVmaTester.push(Translate.translate('Правильное размещение проводов в зугах и тулейках'));
     arrayVmaTester.push(Translate.translate('Тулейки в зажимах слева-снизу или справа-сверху от винта'));
+    arrayVmaTester.push(Translate.translate('Зеленые BUS-бары, проверить чтобы тулейка выходила сверху и не зажимался пластик.'));
     arrayVmaTester.push(Translate.translate('Порядок фаз: N, L1, L2, L3'));
     arrayVmaTester.push(Translate.translate('Проверка настроек настраиваемых приборов'));
     arrayVmaTester.push(Translate.translate('Жёсткие мосты над включателями затянуты, по концам не торчит медь, описаны фазы.'));
