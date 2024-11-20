@@ -39,6 +39,30 @@ class TranslateBD
         ``
       ],
       [
+        `Пластиковые перегородки между реле-реле, реле-оборудование.`,
+        `Пластикові перегородки між реле-реле, реле-обладнання.`,
+        `Przegrody plastikowe pomiędzy przekaźnikami-przekaźnikami, urządzeniami-przekaźnikami.`,
+        `Plastic partitions between relay-relay, relay-equipment.`
+      ],
+      [
+        `<h2>*****Электрика*****</h2>`,
+        `<h2>*****Електрика*****</h2>`,
+        `<h2>*****Elektryczne*****</h2>`,
+        `<h2>*****Electrics*****</h2>`
+      ],
+      [
+        `<h2>*****Механика*****</h2>`,
+        `<h2>*****Механіка*****</h2>`,
+        `<h2>*****Mechanika*****</h2>`,
+        `<h2>*****Mechanics*****</h2>`
+      ],
+      [
+        `<h2>*****ВНЕШНИЙ ОСМОТР*****</h2>`,
+        `<h2>*****ЗОВНІШНІЙ ОГЛЯД*****</h2>`,
+        `<h2>*****INSPEKCJA ZEWNĘTRZNA*****</h2>`,
+        `<h2>*****EXTERNAL INSPECTION*****</h2>`
+      ],
+      [
         `Зеленые BUS-бары, проверить чтобы тулейка выходила сверху и не зажимался пластик.`,
         `Зелені BUS-бари, перевірити, щоб тулейка виходила зверху і не затискався пластик.`,
         `Zielone listwy BUS, sprawdź czy tiul wychodzi od góry i czy plastik nie jest zaciśnięty.`,
