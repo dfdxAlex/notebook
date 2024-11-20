@@ -33,10 +33,87 @@ class TranslateBD
         ``
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `<div style="font-family: Arial, sans-serif; line-height: 1.5; color: #333; padding: 20px; max-width: 600px; margin: auto; border: 1px solid #ddd; border-radius: 10px; background-color: #f9f9f9;">
+  <h2 style="text-align: center; color: #0066cc; margin-bottom: 20px;">Настройка счётчика PM5300</h2>
+  <p>Опции листаются <strong>правой кнопкой</strong> под экраном, стрелкой вправо. Нажимая правую стрелку, необходимо найти пункт <strong>Maint</strong>. Одновременно на экране помещаются три опции, для выбора <strong>Maint</strong> необходимо под надписью нажать кнопку.</p>
+  <p>Далее:</p>
+  <ol style="padding-left: 20px; margin-top: 10px; margin-bottom: 20px;">
+    <li>Выберите <strong>Setup</strong>.</li>
+    <li>На экране появится поле для ввода пароля (с нулями). Ничего не вводим, просто нажимаем <strong>OK</strong>.</li>
+    <li>Выберите <strong>Meter</strong>, затем <strong>Basic</strong>.</li>
+  </ol>
+  <p>Таким образом, вы попадёте в меню настроек счётчика. Чтобы задать параметры:</p>
+  <ul style="padding-left: 20px; margin-top: 10px; margin-bottom: 20px;">
+    <li>Найдите параметр <strong>CT Primary</strong> для задания высокого параметра трансформатора тока.</li>
+    <li>Найдите параметр <strong>CT Secondary</strong> для настройки малого параметра.</li>
+  </ul>
+
+  <h2 style="text-align: center; color: #0066cc; margin-bottom: 20px;">Проверка счётчика</h2>
+  <p>Находясь в режиме работы, на главной странице, листайте подпункты и ищите <strong>I - сила тока</strong>. Откройте эту позицию и, нагрузив фазы, проверьте силу тока.</p>
+  <p><strong>Важно:</strong> величина должна быть положительной. Если это не так, трансформатор тока подключён неправильно.</p>
+</div>
+`,
+        `<div style="font-family: Arial, sans-serif; line-height: 1.5; color: #333; padding: 20px; max-width: 600px; margin: auto; border: 1px solid #ddd; border-radius: 10px; background-color: #f9f9f9;">
+  <h2 style="text-align: center; color: #0066cc; margin-bottom: 20px;">Налаштування лічильника PM5300</h2>
+  <p>Опції перегортаються <strong>правою кнопкою</strong> під екраном, стрілкою вправо. Натискаючи праву стрілку, необхідно знайти пункт <strong>Maint</strong>. Одночасно на екрані відображаються три опції, для вибору <strong>Maint</strong> потрібно натиснути кнопку під написом.</p>
+  <p>Далі:</p>
+  <ol style="padding-left: 20px; margin-top: 10px; margin-bottom: 20px;">
+    <li>Виберіть <strong>Setup</strong>.</li>
+    <li>На екрані з’явиться поле для введення пароля (з нулями). Нічого не вводимо, просто натискаємо <strong>OK</strong>.</li>
+    <li>Виберіть <strong>Meter</strong>, потім <strong>Basic</strong>.</li>
+  </ol>
+  <p>Таким чином, ви потрапите в меню налаштувань лічильника. Щоб задати параметри:</p>
+  <ul style="padding-left: 20px; margin-top: 10px; margin-bottom: 20px;">
+    <li>Знайдіть параметр <strong>CT Primary</strong> для задання високого параметра трансформатора струму.</li>
+    <li>Знайдіть параметр <strong>CT Secondary</strong> для налаштування малого параметра.</li>
+  </ul>
+
+  <h2 style="text-align: center; color: #0066cc; margin-bottom: 20px;">Перевірка лічильника</h2>
+  <p>Перебуваючи в режимі роботи, на головній сторінці, перегортайте підпункти і шукайте <strong>I - сила струму</strong>. Відкрийте цю позицію і, навантаживши фази, перевірте силу струму.</p>
+  <p><strong>Важливо:</strong> величина повинна бути додатною. Якщо це не так, трансформатор струму підключений неправильно.</p>
+</div>
+`,
+        `<div style="font-family: Arial, sans-serif; line-height: 1.5; color: #333; padding: 20px; max-width: 600px; margin: auto; border: 1px solid #ddd; border-radius: 10px; background-color: #f9f9f9;">
+  <h2 style="text-align: center; color: #0066cc; margin-bottom: 20px;">Konfiguracja licznika PM5300</h2>
+  <p>Opcje można przeglądać <strong>prawym przyciskiem</strong> pod ekranem, strzałką w prawo. Naciskając prawą strzałkę, należy znaleźć opcję <strong>Maint</strong>. Na ekranie wyświetlane są jednocześnie trzy opcje, aby wybrać <strong>Maint</strong>, należy nacisnąć przycisk pod napisem.</p>
+  <p>Dalej:</p>
+  <ol style="padding-left: 20px; margin-top: 10px; margin-bottom: 20px;">
+    <li>Wybierz <strong>Setup</strong>.</li>
+    <li>Na ekranie pojawi się pole do wprowadzenia hasła (z zerami). Nic nie wprowadzaj, po prostu naciśnij <strong>OK</strong>.</li>
+    <li>Wybierz <strong>Meter</strong>, a następnie <strong>Basic</strong>.</li>
+  </ol>
+  <p>W ten sposób trafisz do menu konfiguracji licznika. Aby ustawić parametry:</p>
+  <ul style="padding-left: 20px; margin-top: 10px; margin-bottom: 20px;">
+    <li>Znajdź parametr <strong>CT Primary</strong>, aby ustawić wysoki parametr przekładnika prądowego.</li>
+    <li>Znajdź parametr <strong>CT Secondary</strong>, aby skonfigurować niski parametr.</li>
+  </ul>
+
+  <h2 style="text-align: center; color: #0066cc; margin-bottom: 20px;">Sprawdzanie licznika</h2>
+  <p>Będąc w trybie pracy, na stronie głównej, przeglądaj podpunkty i szukaj <strong>I - natężenie prądu</strong>. Otwórz tę pozycję i obciążając fazy, sprawdź natężenie prądu.</p>
+  <p><strong>Ważne:</strong> wartość powinna być dodatnia. Jeśli tak nie jest, przekładnik prądowy jest podłączony nieprawidłowo.</p>
+</div>
+`,
+        `<div style="font-family: Arial, sans-serif; line-height: 1.5; color: #333; padding: 20px; max-width: 600px; margin: auto; border: 1px solid #ddd; border-radius: 10px; background-color: #f9f9f9;">
+  <h2 style="text-align: center; color: #0066cc; margin-bottom: 20px;">PM5300 Meter Configuration</h2>
+  <p>The options can be browsed using the <strong>right button</strong> below the screen, by pressing the right arrow. To select the <strong>Maint</strong> option, press the button located directly under the text "Maint" on the screen. (Note: Only three options are displayed on the screen at a time.)</p>
+  <p>Next steps:</p>
+  <ol style="padding-left: 20px; margin-top: 10px; margin-bottom: 20px;">
+    <li>Select <strong>Setup</strong>.</li>
+    <li>A password input screen will appear (initially filled with zeros). Do not enter anything; simply press <strong>OK</strong>.</li>
+    <li>Choose <strong>Meter</strong>, then <strong>Basic</strong>.</li>
+  </ol>
+  <p>By following these steps, you will enter the meter configuration menu. To set the required parameters:</p>
+  <ul style="padding-left: 20px; margin-top: 10px; margin-bottom: 20px;">
+    <li>Locate the <strong>CT Primary</strong> parameter to configure the high value of the current transformer.</li>
+    <li>Locate the <strong>CT Secondary</strong> parameter to configure the low value of the transformer.</li>
+  </ul>
+
+  <h2 style="text-align: center; color: #0066cc; margin-bottom: 20px;">Meter Verification</h2>
+  <p>While in operating mode, on the main screen, browse through the submenus and find <strong>I - current strength</strong>. Open this option and load the phases to check the current strength.</p>
+  <p><strong>Important:</strong> The value should be positive. If not, the current transformer is incorrectly connected.</p>
+  <p style="font-style: italic; color: #555; margin-top: 20px;">Note: Ensure that all connections and settings comply with the manufacturer's guidelines and safety protocols to avoid equipment damage or inaccurate measurements.</p>
+</div>
+`
       ],
       [
         `Пластиковые перегородки между реле-реле, реле-оборудование.`,
