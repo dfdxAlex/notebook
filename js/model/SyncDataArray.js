@@ -84,4 +84,15 @@ class SyncDataArray extends Translate
         this.#arrayCabinet = arrayCabinet(str);
         return this.#arrayCabinet;
     }
+
+    // обёртка для недопущения дублирования кода
+    // функция возвращает готовый массив с тем, что должно 
+    // быть отображено в рабочем поле
+    static get loadDataArray()
+    {
+        // Функция loadArray() помещает актуальные данные пунктов записной книги в свой класс
+        this.loadArray();
+        // dataArray в данном случае это геттер класса SyncDataArray
+        return this.dataArray;
+    }
 }

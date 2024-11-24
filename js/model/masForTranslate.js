@@ -10,9 +10,26 @@
 // динамическая часть массива, отвечающая за настройку переводов
 // позиций заполняется в функции createLine() в момент формирования
 // позиций.
-masForTranslate.push("text-button-ok/Apply/Stosować/Застосувати/Применить");
-masForTranslate.push("button-add/Add/Dodać/Додати/Добавить");
-masForTranslate.push("font-size-setting-label/Font height/Wysokość czcionki/Висота шрифту/Высота шрифта");
-masForTranslate.push("select-lenguage-label/Language selection/Wybór języka/Вибір мови/Выбор языка");
+
+var masForTranslate = [];
+
+(
+    () => {
+    // loadDataArray в данном случае это геттер класса SyncDataArray
+    const mas = SyncDataArray.loadDataArray;
+
+    mas.forEach((el, index) => {
+        masForTranslate.push('create-pozition-legend-label'+ index +'/Disposable/Jednorazowe/Одноразові/Одноразовые');
+    });
+
+    masForTranslate.push("text-button-ok/Apply/Stosować/Застосувати/Применить");
+    masForTranslate.push("button-add/Add/Dodać/Додати/Добавить");
+    masForTranslate.push("font-size-setting-label/Font height/Wysokość czcionki/Висота шрифту/Высота шрифта");
+    masForTranslate.push("select-lenguage-label/Language selection/Wybór języka/Вибір мови/Выбор языка");
+    }
+
+)();
+
+
 
 

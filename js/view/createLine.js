@@ -1,43 +1,51 @@
-var masForTranslate = [];
+ //var masForTranslate = [];
+
+// Удалить когда забуду что это
+// const pozition = document.getElementById('pozition');
+// pozition.onclick = (ev) => {
+//     handleDellPozition(ev);
+//     createLine(); 
+//     myTranslate();
+// };
 
 function createLine() {
 
-    SyncDataArray.loadArray();
-    const mas = SyncDataArray.dataArray;
-
-    const pozition = document.getElementById('pozition');
-    pozition.onclick = (ev) => {
-        handleDellPozition(ev);
-        createLine(); 
-        myTranslate();
-    };
+    // loadDataArray в данном случае это геттер класса SyncDataArray
+    // loadDataArray возвращает массив с тем, что должно быть в рабочем поле
+    const mas = SyncDataArray.loadDataArray;
 
     let innerOut='<ul>';
 
+    // Здесь просматривается весь массив с данными и формируются
+    // позиции записной книги. 
     for (val in mas) {
-        masForTranslate.push('create-pozition-legend-label'+ val +'/Disposable/Jednorazowe/Одноразові/Одноразовые');
-        innerOut += `<fieldset class="create-pozition-fieldswt" style="border: 1px solid #ced4da; border-radius: 8px; padding: 15px; margin-bottom: 15px; max-width: 100%; width: 100%; background-color: ${val % 2 === 0 ? '#f8f9fa' : '#e9ecef'};">
+        innerOut += `
+        <fieldset 
+            class="create-pozition-fieldswt" 
+            style="background-color: ${val % 2 === 0 ? '#f8f9fa' : '#e9ecef'};"
+        >
         <legend style="font-weight: normal; color: #495057;">
-            <label id="create-pozition-legend-label${val}" style="font-size: 0.6em; color: #28a745;">
+            <label id="create-pozition-legend-label${val}" 
+                   style="font-size: 0.6em; color: #28a745;">
                 Одноразовые
             </label>
         </legend>
         <button
-            class="btn btn-danger btn-sm"
+            class="btn btn-danger btn-sm buttonX"
             data-val = ${val}
             type="button"
-            style="float: right; margin-top: -10px; margin-right: -10px; font-size: 0.8em; padding: 0.25em 0.5em;">
+        >
             X
         </button>
         <ul style="list-style-type: none; padding-left: 0; margin-top: 15px;">
-            <li class="button-poz" style="font-weight: bold; font-size: 1.4em; color: #28a745;">${mas[val]}</li>
+            <li class="button-poz">${mas[val]}</li>
         </ul>
      </fieldset>`;
-
-
-
     }
     innerOut += '</ul>';
+
+    // Здесь находится нужный элемент и данные в него рендерятся
+    const pozition = document.getElementById('pozition') 
     pozition.innerHTML = innerOut;
 }
 
