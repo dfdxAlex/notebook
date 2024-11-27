@@ -21,16 +21,16 @@ class TranslateBD
         ``
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `Без напряжения проверить правильную запитку PLC и другой электроники.`,
+        `Без напруги перевірити правильну запитку PLC та іншої електроніки.`,
+        `Bez napięcia sprawdź, czy sterownik PLC i inna elektronika są prawidłowo zasilane.`,
+        `Without voltage, check the correct power supply of the PLC and other electronics.`
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `Хорошо прикручена ручка`,
+        `Добре прикручена ручка`,
+        `Uchwyt jest dobrze przykręcony`,
+        `The handle is screwed on well.`
       ],
       [
         `<div style="font-family: Arial, sans-serif; line-height: 1.5; color: #333; padding: 20px; max-width: 600px; margin: auto; border: 1px solid #ddd; border-radius: 10px; background-color: #f9f9f9;">

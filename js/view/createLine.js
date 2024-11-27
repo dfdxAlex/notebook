@@ -1,13 +1,3 @@
- //var masForTranslate = [];
-
-// Удалить когда забуду что это
-// const pozition = document.getElementById('pozition');
-// pozition.onclick = (ev) => {
-//     handleDellPozition(ev);
-//     createLine(); 
-//     myTranslate();
-// };
-
 function createLine() {
 
     // loadDataArray в данном случае это геттер класса SyncDataArray

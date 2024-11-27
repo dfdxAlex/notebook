@@ -23,6 +23,7 @@ function arrayVmaTester(str)
     arrayVmaTester.push(Translate.translate('Лицевая панель на призмах'));
     arrayVmaTester.push(Translate.translate('Проверка вкладыша замка (в проекте)'));
     arrayVmaTester.push(Translate.translate('Ключи в шкафу'));
+    arrayVmaTester.push(Translate.translate('Хорошо прикручена ручка'));
 
     arrayVmaTester.push(Translate.translate('<h2>*****Электрика*****</h2>'));
     arrayVmaTester.push(Translate.translate('Кабельные наконечники для клиента и Helawia'));
@@ -53,6 +54,7 @@ function arrayVmaTester(str)
     arrayVmaTester.push(Translate.translate('Жёсткие мосты над включателями затянуты, по концам не торчит медь, описаны фазы.'));
     arrayVmaTester.push(Translate.translate('Проверка комплектации шкафа согласно схеме'));
     arrayVmaTester.push(Translate.translate('Соответствие сечений и цветов проводов'));
+    arrayVmaTester.push(Translate.translate('Без напряжения проверить правильную запитку PLC и другой электроники.'));
     arrayVmaTester.push(Translate.translate('Проверка под электричеством'));
     arrayVmaTester.push(Translate.translate('Дополнительная визуальная проверка N и F1, F2, F3 вверх-низ'));
     arrayVmaTester.push(Translate.translate('Закрутить все винты'));
