@@ -9,10 +9,13 @@ function arrayVmaTester(str)
     arrayVmaTester.push(Translate.translate('Список нехватки WS3 на дверях.'));
     arrayVmaTester.push('QR-code');
     arrayVmaTester.push(Translate.translate('Цвет гравировки данные'));
+    arrayVmaTester.push(Translate.translate('Красная наклейка над главным автоматом:"HOOFDSCHAKELAR ..."'));
+    arrayVmaTester.push(Translate.translate('Красная наклейка над автоматом от лампочек:"STEEDS ONDER SPANNING  ..."'));
     arrayVmaTester.push(Translate.translate('Названия кнопок, счётчиков, включателей'));
     arrayVmaTester.push(Translate.translate('Тип питания, под напряжением, опасно'));
     arrayVmaTester.push(Translate.translate('Соответствие Граверок с оборудованием'));
     arrayVmaTester.push(Translate.translate('Присутствие красных граверек на главном включателе, освещения, и перенапряжения'));
+    arrayVmaTester.push(Translate.translate('Зуги установлены крючком вверх, с кнопкой, направленной в сторону клиента.'));
 
     arrayVmaTester.push(Translate.translate('<h2>*****Механика*****</h2>'));
     arrayVmaTester.push(Translate.translate('Проверка повреждений'));

@@ -21,6 +21,36 @@ class TranslateBD
         ``
       ],
       [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        `Красная наклейка над автоматом от лампочек:"STEEDS ONDER SPANNING  ..."`,
+        `Червона наклейка над автоматом від лампочок: "STEEDS ONDER SPANNING ..."`,
+        `Czerwona naklejka nad dozownikiem żarówek: „STEEDS ONDER SPANNING…”`,
+        `Red sticker above the machine from the light bulbs: "STEEDS ONDER SPANNING ..."`
+      ],
+      [
+        `Красная наклейка над главным автоматом:"HOOFDSCHAKELAR ..."`,
+        `Червона наклейка над головним автоматом: "HOOFDSCHAKELAAR..."`,
+        `Czerwona naklejka nad maszyną główną: „HOOFDSCHAKELAAR …”`,
+        `Red sticker above the main machine: "HOOFDSCHAKELAAR ..."`
+      ],
+      [
+        `Зуги установлены крючком вверх, с кнопкой, направленной в сторону клиента.`,
+        `Зуги встановлені гачком нагору, з кнопкою, спрямованою у бік клієнта.`,
+        `Zugi montuje się za pomocą zaczepu, przyciskiem skierowanym w stronę klienta.`,
+        `The zugs are installed with the hook facing upwards, with the button facing the client.`
+      ],
+      [
         `Без напряжения проверить правильную запитку PLC и другой электроники.`,
         `Без напруги перевірити правильну запитку PLC та іншої електроніки.`,
         `Bez napięcia sprawdź, czy sterownik PLC i inna elektronika są prawidłowo zasilane.`,
