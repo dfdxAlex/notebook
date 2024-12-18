@@ -16,6 +16,7 @@ function arrayVmaTester(str)
     arrayVmaTester.push(Translate.translate('Соответствие Граверок с оборудованием'));
     arrayVmaTester.push(Translate.translate('Присутствие красных граверек на главном включателе, освещения, и перенапряжения'));
     arrayVmaTester.push(Translate.translate('Зуги установлены крючком вверх, с кнопкой, направленной в сторону клиента.'));
+    arrayVmaTester.push(Translate.translate('На всех колодках есть боковая крышка'));
 
     arrayVmaTester.push(Translate.translate('<h2>*****Механика*****</h2>'));
     arrayVmaTester.push(Translate.translate('Проверка повреждений'));

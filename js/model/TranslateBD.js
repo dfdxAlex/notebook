@@ -27,10 +27,10 @@ class TranslateBD
         ``
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `На всех колодках есть боковая крышка`,
+        `На всіх колодках є бічна кришка`,
+        `Wszystkie podkładki posiadają boczną osłonę`,
+        `All pads have a side cover.`
       ],
       [
         `Красная наклейка над автоматом от лампочек:"STEEDS ONDER SPANNING  ..."`,
