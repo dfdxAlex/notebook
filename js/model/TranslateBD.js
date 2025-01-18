@@ -27,6 +27,72 @@ class TranslateBD
         ``
       ],
       [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        `Призма. Короткие болты вверху и внизу держат лицевую панель.`,
+        `Призма. Короткі болти вгорі та внизу тримають лицьову панель.`,
+        `Pryzmat. Krótkie śruby u góry i u dołu utrzymują płytę czołową na miejscu.`,
+        `Prism: Short bolts at the top and bottom hold the faceplate in place.`
+      ],
+      [
+        `Проверка тока шин Linergy, INS, NSX`,
+        `Перевірка струму шин Linergy, INS, NSX`,
+        `Sprawdzenie prądu magistrali Linergy, INS, NSX`,
+        `Checking the current of Linergy, INS, NSX buses`
+      ],
+      [
+        `Проверка мест подключения мультиклипов, не выломаны квадратные пластики.`,
+        `Перевірка місць підключення мультикліпів, чи не виламані квадратні пластики.`,
+        `Sprawdzenie punktów połączeń multiklipsów pod kątem pęknięć kwadratowych plastików.`,
+        `Checking the connection points of the multi-clips, the square plastics are not broken.`
+      ],
+      [
         `На всех колодках есть боковая крышка`,
         `На всіх колодках є бічна кришка`,
         `Wszystkie podkładki posiadają boczną osłonę`,
@@ -524,12 +590,6 @@ Also check the other phases. In the example, the heater is in the VMA.`
             'Connecting the wires. D1+ - Brown. B0- - White. 0V - Yellow. SH - Screen.'
         ],
         [
-            'Название шкафа соответствует названию на наклейке со штрих-кодом.',
-            'Назва шафи відповідає назві на наклейці зі штрих-кодом.',
-            'Nazwa szafki odpowiada nazwie na naklejce z kodem kreskowym.',
-            'The name of the cabinet corresponds to the name on the barcode sticker.'
-        ],
-        [
             'Нет касания проводов на корпус.',
             'Немає торкання дротів на корпус.',
             'Żadnych przewodów dotykających korpusu.',
@@ -660,12 +720,6 @@ Also check the other phases. In the example, the heater is in the VMA.`
             'Порядок фаз: N, L1, L2, L3. Найвище становище N',
             'Kolejność faz: N, L1, L2, L3. Najwyższa pozycja N',
             'Phase order: N, L1, L2, L3. The highest position N'
-        ],
-        [
-            'Присутствие красных граверек на главном включателе, освещения, и перенапряжения',
-            'Присутність червоних граверок на головному вмикачі, освітлення, та перенапруги',
-            'Obecność czerwonych znaków nad wył. głów., oświetlenie i przepięciowka',
-            'The presence of red engravers on the main switch, lighting, and overvoltage'
         ],
         [
             'Наличие всех наклеек',

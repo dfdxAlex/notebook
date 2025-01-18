@@ -5,7 +5,6 @@ function arrayVmaTester(str)
     
     arrayVmaTester.push(Translate.translate('<h2>*****ВНЕШНИЙ ОСМОТР*****</h2>'));
     arrayVmaTester.push(Translate.translate('Правильная установка названия шкафа'));
-    arrayVmaTester.push(Translate.translate('Название шкафа соответствует названию на наклейке со штрих-кодом.'));
     arrayVmaTester.push(Translate.translate('Список нехватки WS3 на дверях.'));
     arrayVmaTester.push('QR-code');
     arrayVmaTester.push(Translate.translate('Цвет гравировки данные'));
@@ -14,13 +13,14 @@ function arrayVmaTester(str)
     arrayVmaTester.push(Translate.translate('Названия кнопок, счётчиков, включателей'));
     arrayVmaTester.push(Translate.translate('Тип питания, под напряжением, опасно'));
     arrayVmaTester.push(Translate.translate('Соответствие Граверок с оборудованием'));
-    arrayVmaTester.push(Translate.translate('Присутствие красных граверек на главном включателе, освещения, и перенапряжения'));
     arrayVmaTester.push(Translate.translate('Зуги установлены крючком вверх, с кнопкой, направленной в сторону клиента.'));
     arrayVmaTester.push(Translate.translate('На всех колодках есть боковая крышка'));
+    arrayVmaTester.push(Translate.translate('Проверка мест подключения мультиклипов, не выломаны квадратные пластики.'));
 
     arrayVmaTester.push(Translate.translate('<h2>*****Механика*****</h2>'));
     arrayVmaTester.push(Translate.translate('Проверка повреждений'));
     arrayVmaTester.push(Translate.translate('Сборка шкафа и недостатки'));
+    arrayVmaTester.push(Translate.translate('Призма. Короткие болты вверху и внизу держат лицевую панель.'));
     arrayVmaTester.push(Translate.translate('Заклепки на дверях и других элементах не повреждены.'));
     arrayVmaTester.push(Translate.translate('Призма: прикручены все винты на пластиковых уголках. Углы - подставки под лицевую панель.'));
     arrayVmaTester.push(Translate.translate('Стягивающие шкаф бляхи внизу прикручены на один финт по середине.'));
@@ -37,6 +37,7 @@ function arrayVmaTester(str)
     arrayVmaTester.push(Translate.translate('Полное описание всех зуг и прочих колодок'));
     arrayVmaTester.push(Translate.translate('Наличие предупреждающих наклеек, L1, L2, L3, N, PE, на бусбарах/под напряжением'));
     arrayVmaTester.push(Translate.translate('Linergy, INS, NSX(rowniez pod oslonami) sprawdzenie oslon'));
+    arrayVmaTester.push(Translate.translate('Проверка тока шин Linergy, INS, NSX'));
     arrayVmaTester.push(Translate.translate('Наличие всех наклеек'));
     arrayVmaTester.push(Translate.translate('Соответствующая длина тулеек'));
     arrayVmaTester.push(Translate.translate('Правильное и в полном объеме подключение заземлений PE.'));
