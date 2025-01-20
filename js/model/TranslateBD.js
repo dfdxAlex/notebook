@@ -57,22 +57,22 @@ class TranslateBD
         ``
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `На призмах P, зуги всегда крючком к клиенту.`,
+        `На призмах P, зуги завжди є гачком до клієнта.`,
+        `Na pryzmatach P zugi są zawsze szydełkowane w kierunku klienta.`,
+        `On P prisms, the zugs are always hooked towards the client.`
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `На призмах P на зугах до 16мм должна быть зуга заземления.`,
+        `На призмах P на зугах до 16мм має бути зуга заземлення.`,
+        `W przypadku pryzmatów P na krawędziach do 16 mm musi znajdować się pętla uziemiająca.`,
+        `On prisms P on grooves up to 16 mm there must be a ground groove.`
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `Если торы запитаны автоматом на 400А, то отводы 6мм должны быть Штудером.`,
+        `Якщо тори запитані автоматично на 400А, то відведення 6мм мають бути Штудером.`,
+        `Jeśli tori są zasilane przez wyłącznik automatyczny 400A, wówczas krany 6mm powinny być typu Studer.`,
+        `If the toroids are powered by a 400A circuit breaker, then the 6mm taps must be Studer.`
       ],
       [
         `Призма. Короткие болты вверху и внизу держат лицевую панель.`,

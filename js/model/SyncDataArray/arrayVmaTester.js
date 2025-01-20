@@ -31,7 +31,10 @@ function arrayVmaTester(str)
 
     arrayVmaTester.push(Translate.translate('<h2>*****Электрика*****</h2>'));
     arrayVmaTester.push(Translate.translate('Кабельные наконечники для клиента и Helawia'));
+    arrayVmaTester.push(Translate.translate('Если торы запитаны автоматом на 400А, то отводы 6мм должны быть Штудером.'));
+    arrayVmaTester.push(Translate.translate('На призмах P на зугах до 16мм должна быть зуга заземления.'));
     arrayVmaTester.push(Translate.translate('Нет касания проводов на корпус.'));
+    arrayVmaTester.push(Translate.translate('На призмах P, зуги всегда крючком к клиенту.'));
     arrayVmaTester.push(Translate.translate('Пластиковые перегородки между реле-реле, реле-оборудование.'));
     arrayVmaTester.push(Translate.translate('Названия и моменты на оборудовании'));
     arrayVmaTester.push(Translate.translate('Полное описание всех зуг и прочих колодок'));
