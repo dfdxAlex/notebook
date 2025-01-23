@@ -45,16 +45,16 @@ class TranslateBD
         ``
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `На призмах P, пластиковые перегородки НЕ в нахлёст.`,
+        `На призмах P, пластикові перегородки не нахльостують.`,
+        `Na pryzmatach P plastikowe przegrody NIE zachodzą na siebie.`,
+        `On P prisms, the plastic partitions are NOT overlapping.`
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `На призмах P, металлические перегородки заземлены специальной выгнутой пластинкой.`,
+        `На призмі P металеві перегородки заземлені попередньо вигнутою пластиною.`,
+        `Na pryzmacie P metalowe przegrody są uziemione za pomocą wstępnie zakrzywionej płyty.`,
+        `On the prism P, the metal partitions are grounded by a pre-bent plate.`
       ],
       [
         `На призмах P, зуги всегда крючком к клиенту.`,
