@@ -20,6 +20,7 @@ function arrayVmaTester(str)
     arrayVmaTester.push(Translate.translate('<h2>*****Механика*****</h2>'));
     arrayVmaTester.push(Translate.translate('Проверка повреждений'));
     arrayVmaTester.push(Translate.translate('Сборка шкафа и недостатки'));
+    arrayVmaTester.push(Translate.translate('Проверить качество петель на дверях, что ничего не отлетает.'));
     arrayVmaTester.push(Translate.translate('Призма. Короткие болты вверху и внизу держат лицевую панель.'));
     arrayVmaTester.push(Translate.translate('Заклепки на дверях и других элементах не повреждены.'));
     arrayVmaTester.push(Translate.translate('Призма: прикручены все винты на пластиковых уголках. Углы - подставки под лицевую панель.'));
@@ -34,6 +35,7 @@ function arrayVmaTester(str)
     arrayVmaTester.push(Translate.translate('Если торы запитаны автоматом на 400А, то отводы 6мм должны быть Штудером.'));
     arrayVmaTester.push(Translate.translate('На призмах P на зугах до 16мм должна быть зуга заземления.'));
     arrayVmaTester.push(Translate.translate('Нет касания проводов на корпус.'));
+    arrayVmaTester.push(Translate.translate('Проверить подключение лампы на призмах, в тулейках.'));
     arrayVmaTester.push(Translate.translate('На призмах P, зуги всегда крючком к клиенту.'));
     arrayVmaTester.push(Translate.translate('На призмах P, металлические перегородки заземлены специальной выгнутой пластинкой.'));
     arrayVmaTester.push(Translate.translate('На призмах P, пластиковые перегородки НЕ в нахлёст.'));

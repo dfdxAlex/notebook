@@ -33,16 +33,16 @@ class TranslateBD
         ``
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `Проверить качество петель на дверях, что ничего не отлетает.`,
+        `Перевірити якість петель на дверях, що нічого не відлітає.`,
+        `Sprawdź jakość zawiasów w drzwiach, aby upewnić się, że nic nie odlatuje.`,
+        `Check the quality of the hinges on the doors to make sure nothing falls off.`
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `Проверить подключение лампы на призмах, в тулейках.`,
+        `Перевірити підключення лампи на призмах у тулейках.`,
+        `Sprawdź podłączenie lampy na pryzmatach, w tubusach.`,
+        `Check the connection of the lamp on the prisms, in the tubes.`
       ],
       [
         `На призмах P, пластиковые перегородки НЕ в нахлёст.`,
