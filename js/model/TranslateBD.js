@@ -27,10 +27,10 @@ class TranslateBD
         ``
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `Призма. Пластиковые уголки на месте.`,
+        `Пластикові куточки на місці.`,
+        `Pryzmat. Plastikowe narożniki są na swoim miejscu.`,
+        `Prism. Plastic corners in place.`
       ],
       [
         `Проверить качество петель на дверях, что ничего не отлетает.`,
@@ -242,8 +242,8 @@ class TranslateBD
         `Green BUS bars, check that the connector comes out from the top and the plastic is not pinched.`
       ],
       [
-        `Стягивающие шкаф бляхи внизу прикручены на один финт по середине.`,
-        `Стягуючи шафу бляхи внизу прикручені на один фінт посередині.`,
+        `Стягивающие шкаф бляхи внизу прикручены на один винт по середине.`,
+        `Стягуючи шафу бляхи внизу прикручені на один вінт посередині.`,
         `Płytki łączące szafkę od dołu są przykręcone jednym elementem pośrodku.`,
         `The plates that hold the cabinet together at the bottom are screwed on with one twist in the middle.`
       ],

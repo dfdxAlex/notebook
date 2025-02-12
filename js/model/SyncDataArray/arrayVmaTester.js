@@ -16,6 +16,7 @@ function arrayVmaTester(str)
     arrayVmaTester.push(Translate.translate('Зуги установлены крючком вверх, с кнопкой, направленной в сторону клиента.'));
     arrayVmaTester.push(Translate.translate('На всех колодках есть боковая крышка'));
     arrayVmaTester.push(Translate.translate('Проверка мест подключения мультиклипов, не выломаны квадратные пластики.'));
+    arrayVmaTester.push(Translate.translate('Призма. Пластиковые уголки на месте.'));
 
     arrayVmaTester.push(Translate.translate('<h2>*****Механика*****</h2>'));
     arrayVmaTester.push(Translate.translate('Проверка повреждений'));
@@ -24,7 +25,7 @@ function arrayVmaTester(str)
     arrayVmaTester.push(Translate.translate('Призма. Короткие болты вверху и внизу держат лицевую панель.'));
     arrayVmaTester.push(Translate.translate('Заклепки на дверях и других элементах не повреждены.'));
     arrayVmaTester.push(Translate.translate('Призма: прикручены все винты на пластиковых уголках. Углы - подставки под лицевую панель.'));
-    arrayVmaTester.push(Translate.translate('Стягивающие шкаф бляхи внизу прикручены на один финт по середине.'));
+    arrayVmaTester.push(Translate.translate('Стягивающие шкаф бляхи внизу прикручены на один винт по середине.'));
     arrayVmaTester.push(Translate.translate('Лицевая панель на призмах'));
     arrayVmaTester.push(Translate.translate('Проверка вкладыша замка (в проекте)'));
     arrayVmaTester.push(Translate.translate('Ключи в шкафу'));
@@ -62,12 +63,12 @@ function arrayVmaTester(str)
     arrayVmaTester.push(Translate.translate('Зеленые BUS-бары, проверить чтобы тулейка выходила сверху и не зажимался пластик.'));
     arrayVmaTester.push(Translate.translate('Порядок фаз: N, L1, L2, L3'));
     arrayVmaTester.push(Translate.translate('Очередность фаз'));
-    arrayVmaTester.push(Translate.translate('Проверка настроек настраиваемых приборов'));
     arrayVmaTester.push(Translate.translate('Жёсткие мосты над включателями затянуты, по концам не торчит медь, описаны фазы.'));
     arrayVmaTester.push(Translate.translate('Проверка комплектации шкафа согласно схеме'));
     arrayVmaTester.push(Translate.translate('Соответствие сечений и цветов проводов'));
     arrayVmaTester.push(Translate.translate('Без напряжения проверить правильную запитку PLC и другой электроники.'));
     arrayVmaTester.push(Translate.translate('Проверка под электричеством'));
+    arrayVmaTester.push(Translate.translate('Проверка настроек настраиваемых приборов'));
     arrayVmaTester.push(Translate.translate('Дополнительная визуальная проверка N и F1, F2, F3 вверх-низ'));
     arrayVmaTester.push(Translate.translate('Закрутить все винты'));
     arrayVmaTester.push(Translate.translate('Чистота в шкафу'));
