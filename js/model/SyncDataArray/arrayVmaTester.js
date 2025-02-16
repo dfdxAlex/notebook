@@ -1,7 +1,7 @@
 function arrayVmaTester(str)
 {
     const arrayVmaTester = [];
-    arrayVmaTester.push(Translate.translate('Название проекта')+' : '+str);
+    arrayVmaTester.push(Translate.translate('Название проекта')+' : '+str+' '+new Date().toLocaleString());
     
     arrayVmaTester.push(Translate.translate('<h2>*****ВНЕШНИЙ ОСМОТР*****</h2>'));
     arrayVmaTester.push(Translate.translate('Правильная установка названия шкафа'));
