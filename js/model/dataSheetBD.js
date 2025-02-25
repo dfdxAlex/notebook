@@ -19,6 +19,26 @@ dataSheetBD.avg_awg = `<div style="border: 1px solid #ddd; border-radius: 8px; p
     </thead>
     <tbody>
       <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">500</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">253,6</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">400</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">202,8</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">350</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">176,3</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">300</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">150,9</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">250</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">126,6</td>
+      </tr>
+      <tr>
         <td style="padding: 8px; border: 1px solid #ddd;">3/0</td>
         <td style="padding: 8px; border: 1px solid #ddd;">85,0</td>
       </tr>
