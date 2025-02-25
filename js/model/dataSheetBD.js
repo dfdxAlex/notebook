@@ -7,6 +7,48 @@
 // После каждой точки программа сама ставит <br>
 const dataSheetBD = {};
 
+dataSheetBD.avg_awg = `<div class="container" style="max-width: 800px; margin: 20px auto;">
+    <h2 style="text-align: center; margin-bottom: 20px;">AWG to mm² Conversion Table</h2>
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <div class="card" style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
+                <h5 class="card-title" style="text-align: center;">AWG 4</h5>
+                <p class="card-text" style="text-align: center; font-weight: bold;">21.15 mm²</p>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <div class="card" style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
+                <h5 class="card-title" style="text-align: center;">AWG 6</h5>
+                <p class="card-text" style="text-align: center; font-weight: bold;">13.3 mm²</p>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <div class="card" style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
+                <h5 class="card-title" style="text-align: center;">AWG 8</h5>
+                <p class="card-text" style="text-align: center; font-weight: bold;">8.37 mm²</p>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <div class="card" style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
+                <h5 class="card-title" style="text-align: center;">AWG 10</h5>
+                <p class="card-text" style="text-align: center; font-weight: bold;">5.26 mm²</p>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <div class="card" style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
+                <h5 class="card-title" style="text-align: center;">AWG 12</h5>
+                <p class="card-text" style="text-align: center; font-weight: bold;">3.31 mm²</p>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <div class="card" style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
+                <h5 class="card-title" style="text-align: center;">AWG 14</h5>
+                <p class="card-text" style="text-align: center; font-weight: bold;">2.08 mm²</p>
+            </div>
+        </div>
+    </div>
+</div>
+`;
 dataSheetBD.m10 = 'Гайка металлическая с резьбой М10 затягивается моментом в 50 ньютон.';
 dataSheetBD.m12 = 'Гайка металлическая с резьбой М12 затягивается моментом в 70 ньютон.';
 dataSheetBD.mod_bus_rs485_485 = '<h4>Цвета подключения проводов</h4> D1+ - Коричневый. В0- - Белый. 0V - Жёлтый. SH - Экран.';
