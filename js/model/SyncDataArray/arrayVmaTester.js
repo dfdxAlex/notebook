@@ -37,6 +37,7 @@ function arrayVmaTester(str)
     arrayVmaTester.push(Translate.translate('На призмах P на зугах до 16мм должна быть зуга заземления.'));
     arrayVmaTester.push(Translate.translate('Нет касания проводов на корпус.'));
     arrayVmaTester.push(Translate.translate('Проверить подключение лампы на призмах, в тулейках.'));
+    arrayVmaTester.push(Translate.translate('Настройки перемычек. Предпоследние с обеих сторон переключены к желтому проводу.'));
     arrayVmaTester.push(Translate.translate('На призмах P, зуги всегда крючком к клиенту.'));
     arrayVmaTester.push(Translate.translate('На призмах P, металлические перегородки заземлены специальной выгнутой пластинкой.'));
     arrayVmaTester.push(Translate.translate('На призмах P, пластиковые перегородки НЕ в нахлёст.'));

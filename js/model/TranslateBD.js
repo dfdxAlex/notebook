@@ -21,10 +21,10 @@ class TranslateBD
         ``
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `Настройки перемычек. Предпоследние с обеих сторон переключены к желтому проводу.`,
+        `Налаштування перемичок. Передостанні з обох боків переключені до жовтого дроту.`,
+        `Ustawienia zworek. Przedostatnie po obu stronach są przełączane na żółty przewód.`,
+        `Jumper settings. The last but one on both sides are switched to the yellow wire.`
       ],
       [
         `Призма. Пластиковые уголки на месте.`,
