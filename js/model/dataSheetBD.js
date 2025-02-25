@@ -7,46 +7,99 @@
 // После каждой точки программа сама ставит <br>
 const dataSheetBD = {};
 
-dataSheetBD.avg_awg = `<div class="container" style="max-width: 800px; margin: 20px auto;">
-    <h2 style="text-align: center; margin-bottom: 20px;">AWG to mm² Conversion Table</h2>
-    <div class="row">
-        <div class="col-md-6 mb-3">
-            <div class="card" style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-                <h5 class="card-title" style="text-align: center;">AWG 4</h5>
-                <p class="card-text" style="text-align: center; font-weight: bold;">21.15 mm²</p>
-            </div>
-        </div>
-        <div class="col-md-6 mb-3">
-            <div class="card" style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-                <h5 class="card-title" style="text-align: center;">AWG 6</h5>
-                <p class="card-text" style="text-align: center; font-weight: bold;">13.3 mm²</p>
-            </div>
-        </div>
-        <div class="col-md-6 mb-3">
-            <div class="card" style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-                <h5 class="card-title" style="text-align: center;">AWG 8</h5>
-                <p class="card-text" style="text-align: center; font-weight: bold;">8.37 mm²</p>
-            </div>
-        </div>
-        <div class="col-md-6 mb-3">
-            <div class="card" style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-                <h5 class="card-title" style="text-align: center;">AWG 10</h5>
-                <p class="card-text" style="text-align: center; font-weight: bold;">5.26 mm²</p>
-            </div>
-        </div>
-        <div class="col-md-6 mb-3">
-            <div class="card" style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-                <h5 class="card-title" style="text-align: center;">AWG 12</h5>
-                <p class="card-text" style="text-align: center; font-weight: bold;">3.31 mm²</p>
-            </div>
-        </div>
-        <div class="col-md-6 mb-3">
-            <div class="card" style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-                <h5 class="card-title" style="text-align: center;">AWG 14</h5>
-                <p class="card-text" style="text-align: center; font-weight: bold;">2.08 mm²</p>
-            </div>
-        </div>
-    </div>
+
+dataSheetBD.avg_awg = `<div style="border: 1px solid #ddd; border-radius: 8px; padding: 20px; max-width: 600px; margin: 0 auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #f9f9f9;">
+  <h4 style="text-align: center; color: #333; margin-bottom: 20px;">Таблица соответствий сечений AWG с миллиметрами квадратными</h4>
+  <table style="width: 100%; border-collapse: collapse; text-align: center;">
+    <thead>
+      <tr style="background-color: #007bff; color: white;">
+        <th style="padding: 8px; border: 1px solid #ddd;">AWG</th>
+        <th style="padding: 8px; border: 1px solid #ddd;">Площадь сечения (мм²)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">3/0</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">85,0</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">2/0</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">67,4</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">1/0</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">53,5</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">1</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">42,4</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">2</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">33,6</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">4</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">21,2</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">6</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">13,3</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">8</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">8,37</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">10</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">5,26</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">12</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">3,31</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">14</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2,08</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">16</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1,31</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">18</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0,823</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">20</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0,518</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">22</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0,326</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">24</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0,205</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">26</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0,129</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">28</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0,0815</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">30</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0,0507</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">32</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0,0320</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 `;
 dataSheetBD.m10 = 'Гайка металлическая с резьбой М10 затягивается моментом в 50 ньютон.';
