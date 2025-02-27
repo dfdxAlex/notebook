@@ -21,6 +21,60 @@ class TranslateBD
         ``
       ],
       [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        ``,
+        ``,
+        ``,
+        ``
+      ],
+      [
+        `Наклейки`,
+        `Наклейки`,
+        `Naklejki`,
+        `Stickers`
+      ],
+      [
+        `О проекте`,
+        `Про проект`,
+        `O projekcie`,
+        `About the project`
+      ],
+      [
         `Настройки перемычек. Предпоследние с обеих сторон переключены к желтому проводу.`,
         `Налаштування перемичок. Передостанні з обох боків переключені до жовтого дроту.`,
         `Ustawienia zworek. Przedostatnie po obu stronach są przełączane na żółty przewód.`,
@@ -720,18 +774,6 @@ Also check the other phases. In the example, the heater is in the VMA.`
             'Порядок фаз: N, L1, L2, L3. Найвище становище N',
             'Kolejność faz: N, L1, L2, L3. Najwyższa pozycja N',
             'Phase order: N, L1, L2, L3. The highest position N'
-        ],
-        [
-            'Наличие всех наклеек',
-            'Наявність усіх наклейок',
-            'Dostępne wszystkie naklejki',
-            'All stickers are present'
-        ],
-        [
-            'Список нехватки WS3 на дверях.',
-            'Список нестачі WS3 на дверях.',
-            'Lista braków WS3 na drzwiach.',
-            'WS3 door shortage list.'
         ],
         [
             'Соответствующая длина тулеек',
