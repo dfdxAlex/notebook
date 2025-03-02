@@ -19,6 +19,7 @@ class VMATestTimer {
       this.startTime = null;
       this.endTime = null;
       this.realTime = null;
+      this.realTime2 = null;
       this.timerOnOff = false;
     }
   
@@ -47,8 +48,10 @@ class VMATestTimer {
       this.timerOnOff = false;
 
       this.endTime = Date.now();
-      if (this.endTime > this.startTime)
+      if (this.endTime > this.startTime && localStorage.getItem('str_for_notepan') == '0')
           this.realTime +=  this.endTime - this.startTime;
+      if (this.endTime > this.startTime && localStorage.getItem('str_for_notepan') == '1')
+        this.realTime2 +=  this.endTime - this.startTime;     
       
       this.searchButtonStop.classList.add('start-stop-timer-active');
       this.searchButtonStop.classList.remove('start-stop-timer-pasive');
@@ -58,13 +61,15 @@ class VMATestTimer {
     }
   
     getElapsedTime() {
-      return this.realTime;
+      if (localStorage.getItem('str_for_notepan') == '0')
+        return this.realTime;
+      return this.realTime2;
     }
 
     insertTime()
     {
-      if (this.realTime === null) this.realTime = 0;
-      this.insertTimeRezult.innerText = 'Time testing: '+this.convertMilliseconds(this.realTime);
+      if (this.getElapsedTime() === null) return;
+      this.insertTimeRezult.innerText = 'Time testing: '+this.convertMilliseconds(this.getElapsedTime());
     }
 
     convertMilliseconds(ms) {
@@ -76,3 +81,11 @@ class VMATestTimer {
       return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
     }
   }
+
+  // последние изменения.
+  // добавлена переменная в локалсторедж, которая - признак на какой странице
+  // работаем. Нужно к ней привязаться и добавить переменные в локалсторадж
+  // для хранения данных таймера.
+  // Нужно придумать систему сбросса таймера
+  // Нужно разобраться почему при команде return перестают работать 
+  // события кнопок таймера, необходимо обновлять страницу.

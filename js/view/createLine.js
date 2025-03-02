@@ -35,7 +35,7 @@ function createLine() {
     innerOut += '</ul>';
 
     renderWorkPlace(innerOut);
-    console.log(localStorage.getItem('str_for_notepan'));
+    //console.log(localStorage.getItem('str_for_notepan'));
     addEventForButtonTimer(new VMATestTimer);
 }
 
