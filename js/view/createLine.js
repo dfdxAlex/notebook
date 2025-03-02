@@ -34,9 +34,42 @@ function createLine() {
     }
     innerOut += '</ul>';
 
+    renderWorkPlace(innerOut);
+    console.log(localStorage.getItem('str_for_notepan'));
+    addEventForButtonTimer(new VMATestTimer);
+}
+
+function addEventForButtonTimer(objTimerSinglton)
+{
+    addOnClickForButtonStartTimer(objTimerSinglton);
+    addOnClickForButtonStopTimer(objTimerSinglton);
+}
+
+// рендерим рабочее поле
+function renderWorkPlace(innerOut)
+{
     // Здесь находится нужный элемент и данные в него рендерятся
     const pozition = document.getElementById('pozition') 
     pozition.innerHTML = innerOut;
 }
 
+// добавить событие на кнопку старта таймера для тестера
+function addOnClickForButtonStartTimer(obj)
+{
+    let searchButton = document.getElementById('start_timer');
 
+    if (searchButton !== null) {
+        console.log('старт');
+        searchButton.addEventListener('click',(event) => {obj.startTimer.call(obj,event)});
+    }
+}
+
+// добавить событие на кнопку остановки таймера для тестера
+function addOnClickForButtonStopTimer(obj)
+{
+    let searchButton = document.getElementById('stop_timer');
+
+    if (searchButton !== null) {
+        searchButton.addEventListener('click',(event) => {obj.stopTimer.call(obj,event)});
+    }
+}

@@ -71,10 +71,21 @@ class SyncDataArray extends Translate
         this.dataArray = this.#dataTime;
         // записать рабочий массив в локалсторадж
         this.saveArray();
+
+        //Сохранить инфу о том, где находимся.
+        //Параметр произвольный, 0 или 1, само устанавливается.
+        if (localStorage.getItem('str_for_notepan') != '1') {
+            localStorage.setItem('str_for_notepan','1');
+            return;
+        } else {
+            localStorage.setItem('str_for_notepan','0');
+        }
     }
 
     static createNewTest(str)
     {
+        //const timerObj = new VMATestTimer();
+
         this.#arrayVmaTester = arrayVmaTester(str);
         return this.#arrayVmaTester;
     }

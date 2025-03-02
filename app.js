@@ -2,10 +2,10 @@
 function app()
 {
     document.addEventListener('DOMContentLoaded', () => {
-        createLine();
+        createLine();//
         setSetting();
-        myTranslate();
-        saveData();
+        myTranslate();//
+        saveData();//
         buttonsSettingAdd(); 
 
         // Когда загрузится весь документ нужно найти pozition

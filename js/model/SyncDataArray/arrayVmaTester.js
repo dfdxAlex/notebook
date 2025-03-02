@@ -1,7 +1,13 @@
-function arrayVmaTester(str)
+function arrayVmaTester()
 {
+    const [str] = arguments;
+
     const arrayVmaTester = [];
-    arrayVmaTester.push(Translate.translate('Название проекта')+' : '+str+' Test started:'+new Date().toLocaleString());
+    arrayVmaTester.push(`${Translate.translate('Название проекта')}:${str} <br>
+                          &nbsp;Test started:${new Date().toLocaleString()} <span id="insert_time"></span><br>
+                          <button class="start-stop-timer" type="button" id="start_timer">Start Timer</button>
+                          <button class="start-stop-timer" type="button" id="stop_timer">Pause Timer</button>
+                         `);
     
     arrayVmaTester.push('<h2>'+Translate.translate('О проекте')+'</h2>');
     arrayVmaTester.push(Translate.translate('WS3 and WS5'));
@@ -79,3 +85,5 @@ function arrayVmaTester(str)
     arrayVmaTester.push('***************************************');
     return arrayVmaTester;
 }
+
+

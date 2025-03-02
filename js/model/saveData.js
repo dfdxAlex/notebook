@@ -2,7 +2,6 @@ function saveData()
 {
     // добыть данные из класса и поместить в рабочий массив 
     let mas = SyncDataArray.dataArray;
-    //console.log(mas);
 
     // найти форму с текстом
     const name = document.getElementById('name');

@@ -22,7 +22,8 @@ function buttonsSettingAdd(out = true)
                 class="item-menu" 
                 onclick="saveData(); 
                          createLine();
-                         myTranslate();" 
+                         myTranslate();
+                         " 
                 type="button"
                 id="button-add"
               >

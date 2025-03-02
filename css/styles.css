@@ -96,3 +96,18 @@ html {
         width: 300px;
     }
 }
+
+/*Стили кнопок таймера при тестировании VMA*/
+.start-stop-timer {
+    border-radius: 10px;
+    font-weight: bold;
+}
+.start-stop-timer-active {
+    background-color: #0a7808;
+    color:white;
+}
+.start-stop-timer-pasive {
+    background-color: #999c99;
+    color:white;
+}
+
