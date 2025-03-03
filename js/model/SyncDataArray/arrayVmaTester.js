@@ -72,7 +72,6 @@ function arrayVmaTester()
     arrayVmaTester.push(Translate.translate('Тулейки в зажимах слева-снизу или справа-сверху от винта'));
     arrayVmaTester.push(Translate.translate('Зеленые BUS-бары, проверить чтобы тулейка выходила сверху и не зажимался пластик.'));
     arrayVmaTester.push(Translate.translate('Порядок фаз: N, L1, L2, L3'));
-    arrayVmaTester.push(Translate.translate('Очередность фаз'));
     arrayVmaTester.push(Translate.translate('Жёсткие мосты над включателями затянуты, по концам не торчит медь, описаны фазы.'));
     arrayVmaTester.push(Translate.translate('Проверка комплектации шкафа согласно схеме'));
     arrayVmaTester.push(Translate.translate('Соответствие сечений и цветов проводов'));

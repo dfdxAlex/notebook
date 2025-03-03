@@ -812,12 +812,6 @@ Also check the other phases. In the example, the heater is in the VMA.`
             'Installation and connection of the main power supply'
         ],
         [
-            'Очередность фаз',
-            'Черговість фаз',
-            'Kolejność faz',
-            'Sequence of phases'
-        ],
-        [
             'Соответствие сечений и цветов проводов',
             'Відповідність перерізів та кольорів проводів',
             'Zgodność przekrojów przewodów i kolorów',

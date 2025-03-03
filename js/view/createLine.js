@@ -1,5 +1,4 @@
 function createLine() {
-
     // loadDataArray в данном случае это геттер класса SyncDataArray
     // loadDataArray возвращает массив с тем, что должно быть в рабочем поле
     const mas = SyncDataArray.loadDataArray;
@@ -35,14 +34,9 @@ function createLine() {
     innerOut += '</ul>';
 
     renderWorkPlace(innerOut);
-    //console.log(localStorage.getItem('str_for_notepan'));
-    addEventForButtonTimer(new VMATestTimer);
-}
-
-function addEventForButtonTimer(objTimerSinglton)
-{
-    addOnClickForButtonStartTimer(objTimerSinglton);
-    addOnClickForButtonStopTimer(objTimerSinglton);
+    
+    addOnClickForButtonStartTimer(new VMATestTimer);
+    addOnClickForButtonStopTimer(new VMATestTimer);
 }
 
 // рендерим рабочее поле
@@ -59,8 +53,9 @@ function addOnClickForButtonStartTimer(obj)
     let searchButton = document.getElementById('start_timer');
 
     if (searchButton !== null) {
-        console.log('старт');
-        searchButton.addEventListener('click',(event) => {obj.startTimer.call(obj,event)});
+        searchButton.onclick = (event) => {
+            obj.startTimer.call(obj,event);
+        };
     }
 }
 
@@ -70,6 +65,8 @@ function addOnClickForButtonStopTimer(obj)
     let searchButton = document.getElementById('stop_timer');
 
     if (searchButton !== null) {
-        searchButton.addEventListener('click',(event) => {obj.stopTimer.call(obj,event)});
+        searchButton.onclick = (event) => {
+            obj.stopTimer.call(obj,event);
+        };
     }
 }

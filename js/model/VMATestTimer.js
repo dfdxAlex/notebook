@@ -6,9 +6,7 @@
 class VMATestTimer {
     static #instance;
 
-    searchButtonStart = document.getElementById('start_timer');
-    searchButtonStop = document.getElementById('stop_timer');
-    insertTimeRezult = document.getElementById('insert_time');
+
   
     constructor() {
       if (VMATestTimer.#instance) {
@@ -24,52 +22,60 @@ class VMATestTimer {
     }
   
     startTimer(event) {
-      
-      if (event)
-          event.stopPropagation();
+      if (event.target.id === 'start_timer') {
+        event.stopPropagation();
+      }
 
       if (this.timerOnOff) return;
       this.timerOnOff = true;
-
       this.startTime = Date.now();
       this.endTime = Date.now();
 
-      this.searchButtonStart.classList.add('start-stop-timer-active');
-      this.searchButtonStart.classList.remove('start-stop-timer-pasive');
-      this.searchButtonStop.classList.remove('start-stop-timer-active');
-      this.searchButtonStop.classList.add('start-stop-timer-pasive');
+      const searchButtonStart = document.getElementById('start_timer');
+      const searchButtonStop = document.getElementById('stop_timer');
+
+      searchButtonStart.classList.add('start-stop-timer-active');
+      searchButtonStart.classList.remove('start-stop-timer-pasive');
+      searchButtonStop.classList.remove('start-stop-timer-active');
+      searchButtonStop.classList.add('start-stop-timer-pasive');
     }
   
     stopTimer(event) {
-      if (event)
+
+      if (event.target.id === "stop_timer") {
         event.stopPropagation();
+      }
 
       if (!this.timerOnOff) return;
       this.timerOnOff = false;
 
-      this.endTime = Date.now();
+      this.endTime = Date.now(); 
       if (this.endTime > this.startTime && localStorage.getItem('str_for_notepan') == '0')
           this.realTime +=  this.endTime - this.startTime;
       if (this.endTime > this.startTime && localStorage.getItem('str_for_notepan') == '1')
-        this.realTime2 +=  this.endTime - this.startTime;     
+        this.realTime2 +=  this.endTime - this.startTime;   
+
+      const searchButtonStart = document.getElementById('start_timer');
+      const searchButtonStop = document.getElementById('stop_timer');
+
+      searchButtonStop.classList.add('start-stop-timer-active');
+      searchButtonStop.classList.remove('start-stop-timer-pasive');
+      searchButtonStart.classList.remove('start-stop-timer-active');
+      searchButtonStart.classList.add('start-stop-timer-pasive');
       
-      this.searchButtonStop.classList.add('start-stop-timer-active');
-      this.searchButtonStop.classList.remove('start-stop-timer-pasive');
-      this.searchButtonStart.classList.remove('start-stop-timer-active');
-      this.searchButtonStart.classList.add('start-stop-timer-pasive');
       this.insertTime();
     }
   
     getElapsedTime() {
       if (localStorage.getItem('str_for_notepan') == '0')
-        return this.realTime;
+       return this.realTime;
       return this.realTime2;
     }
 
     insertTime()
     {
       if (this.getElapsedTime() === null) return;
-      this.insertTimeRezult.innerText = 'Time testing: '+this.convertMilliseconds(this.getElapsedTime());
+      document.getElementById('insert_time').innerText = 'Time testing: '+this.convertMilliseconds(this.getElapsedTime());
     }
 
     convertMilliseconds(ms) {
