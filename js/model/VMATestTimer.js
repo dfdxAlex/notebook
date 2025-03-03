@@ -9,6 +9,7 @@ class VMATestTimer {
 
   
     constructor() {
+
       if (VMATestTimer.#instance) {
         return VMATestTimer.#instance;
       }
@@ -19,6 +20,8 @@ class VMATestTimer {
       this.realTime = null;
       this.realTime2 = null;
       this.timerOnOff = false;
+
+
     }
   
     startTimer(event) {
@@ -63,7 +66,13 @@ class VMATestTimer {
       searchButtonStart.classList.remove('start-stop-timer-active');
       searchButtonStart.classList.add('start-stop-timer-pasive');
       
-      this.insertTime();
+      // псевдопараллельный поток
+      let intervalId = false;
+      if (!intervalId)
+      intervalId = setInterval(() => {
+          this.insertTime();
+      }, 500);
+
     }
   
     getElapsedTime() {
