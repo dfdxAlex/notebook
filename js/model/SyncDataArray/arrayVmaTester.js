@@ -9,7 +9,7 @@ function arrayVmaTester()
                           <button class="start-stop-timer" type="button" id="stop_timer">Pause Timer</button>
                          `);
     
-    arrayVmaTester.push('<h2>'+Translate.translate('О проекте')+'</h2>');
+    arrayVmaTester.push('<h2>**********'+Translate.translate('О проекте')+'**********</h2>');
     arrayVmaTester.push(Translate.translate('WS3 and WS5'));
     arrayVmaTester.push('QR-code');
     arrayVmaTester.push(Translate.translate('Правильная установка названия шкафа'));
@@ -17,7 +17,7 @@ function arrayVmaTester()
     arrayVmaTester.push(Translate.translate('Красная наклейка над главным автоматом:"HOOFDSCHAKELAR ..."'));
     arrayVmaTester.push(Translate.translate('Красная наклейка над автоматом от лампочек:"STEEDS ONDER SPANNING  ..."'));
     
-    arrayVmaTester.push('<h2>'+Translate.translate('Наклейки')+'</h2>');
+    arrayVmaTester.push('<h2>**********'+Translate.translate('Наклейки')+'**********</h2>');
     arrayVmaTester.push(Translate.translate('Названия кнопок, счётчиков, включателей'));
     arrayVmaTester.push(Translate.translate('Тип питания, под напряжением, опасно'));
     arrayVmaTester.push(Translate.translate('Соответствие Граверок с оборудованием'));
