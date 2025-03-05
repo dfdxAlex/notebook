@@ -3,8 +3,8 @@ function arrayVmaTester()
     const [str] = arguments;
 
     const arrayVmaTester = [];
-    arrayVmaTester.push(`${Translate.translate('Название проекта')}:${str} <br>
-                          &nbsp;Test started:${new Date().toLocaleString()} <br> <span id="insert_time"></span><br>
+    arrayVmaTester.push(`${Translate.translate('Название проекта')}:${str}<br>Test started:${new Date().toLocaleString()}
+                          <br><span id="insert_time"></span><br>
                           <button class="start-stop-timer" type="button" id="start_timer">Start Timer</button>
                           <button class="start-stop-timer" type="button" id="stop_timer">Pause Timer</button>
                          `);
