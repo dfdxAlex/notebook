@@ -41,6 +41,8 @@ class VMATestTimer {
       searchButtonStart.classList.remove('start-stop-timer-pasive');
       searchButtonStop.classList.remove('start-stop-timer-active');
       searchButtonStop.classList.add('start-stop-timer-pasive');
+
+
     }
   
     stopTimer(event) {
@@ -52,6 +54,32 @@ class VMATestTimer {
       if (!this.timerOnOff) return;
       this.timerOnOff = false;
 
+      // this.endTime = Date.now(); 
+      // if (this.endTime > this.startTime && localStorage.getItem('str_for_notepan') == '0')
+      //     this.realTime +=  this.endTime - this.startTime;
+      // if (this.endTime > this.startTime && localStorage.getItem('str_for_notepan') == '1')
+      //   this.realTime2 +=  this.endTime - this.startTime;   
+
+      // const searchButtonStart = document.getElementById('start_timer');
+      // const searchButtonStop = document.getElementById('stop_timer');
+
+      // searchButtonStop.classList.add('start-stop-timer-active');
+      // searchButtonStop.classList.remove('start-stop-timer-pasive');
+      // searchButtonStart.classList.remove('start-stop-timer-active');
+      // searchButtonStart.classList.add('start-stop-timer-pasive');
+      
+      this.stopTimerOnly();
+            // псевдопараллельный поток
+            let intervalId = false;
+            if (!intervalId)
+            intervalId = setInterval(() => {
+                
+                this.insertTime();
+            }, 500);
+    }
+  
+    stopTimerOnly()
+    {
       this.endTime = Date.now(); 
       if (this.endTime > this.startTime && localStorage.getItem('str_for_notepan') == '0')
           this.realTime +=  this.endTime - this.startTime;
@@ -65,16 +93,8 @@ class VMATestTimer {
       searchButtonStop.classList.remove('start-stop-timer-pasive');
       searchButtonStart.classList.remove('start-stop-timer-active');
       searchButtonStart.classList.add('start-stop-timer-pasive');
-      
-      // псевдопараллельный поток
-      let intervalId = false;
-      if (!intervalId)
-      intervalId = setInterval(() => {
-          this.insertTime();
-      }, 500);
-
     }
-  
+
     getElapsedTime() {
       if (localStorage.getItem('str_for_notepan') == '0')
        return this.realTime;
