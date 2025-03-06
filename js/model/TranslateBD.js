@@ -57,10 +57,10 @@ class TranslateBD
         ``
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `Нормальное положение контактов NC и NO . Для проверки нормального положения контактов необходимо представить, что NO замкнётся в рабочем состоянии. То есть при включении автомата NO замыкается и УЗО в рабочем состоянии тоже замыкает NO. NC соответственно замкнут когда автомат выключается или cрабатывает УЗО.`,
+        `Нормальне положення контактів NC і NO. Для перевірки нормального положення контактів необхідно уявити, що NO замкнеться у стані. Тобто при включенні автомата NO замикається і ПЗВ у робочому стані теж замикає NO. NC відповідно замкнуті коли автомат вимикається або cпрацьовує ПЗВ.`,
+        `Normalne położenie styków NC i NO. Aby sprawdzić normalne położenie styków, należy wyobrazić sobie, że NO zamknie się w stanie roboczym. Oznacza to, że gdy maszyna jest włączona, NO zamyka się, a RCD w stanie roboczym również zamyka NO. NC jest odpowiednio zamykane, gdy maszyna jest wyłączona lub wyzwalany jest RCD.`,
+        `Normal position of contacts NC and NO. To check the normal position of contacts, it is necessary to imagine that NO closes in the working state. That is, when the machine is turned on, NO closes and the RCD in the working state also closes NO. NC is accordingly closed when the machine is turned off or the RCD is triggered.`
       ],
       [
         `Наклейки`,

@@ -7,6 +7,7 @@
 // После каждой точки программа сама ставит <br>
 const dataSheetBD = {};
 
+dataSheetBD.nc_no = 'Нормальное положение контактов NC и NO . Для проверки нормального положения контактов необходимо представить, что NO замкнётся в рабочем состоянии. То есть при включении автомата NO замыкается и УЗО в рабочем состоянии тоже замыкает NO. NC соответственно замкнут когда автомат выключается или cрабатывает УЗО.';
 
 dataSheetBD.avg_awg = `<div style="border: 1px solid #ddd; border-radius: 8px; padding: 20px; max-width: 600px; margin: 0 auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #f9f9f9;">
   <h4 style="text-align: center; color: #333; margin-bottom: 20px;">Таблица соответствий сечений AWG с миллиметрами квадратными</h4>
