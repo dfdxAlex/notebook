@@ -42,7 +42,6 @@ function arrayVmaTester()
     arrayVmaTester.push(Translate.translate('Проверка вкладыша замка (в проекте)'));
     arrayVmaTester.push(Translate.translate('Ключи в шкафу'));
     arrayVmaTester.push(Translate.translate('Хорошо прикручена ручка'));
-
     arrayVmaTester.push(Translate.translate('<h2>*****Электрика*****</h2>'));
     arrayVmaTester.push(Translate.translate('Кабельные наконечники для клиента и Helawia'));
     arrayVmaTester.push(Translate.translate('Если торы запитаны автоматом на 400А, то отводы 6мм должны быть Штудером.'));
@@ -67,7 +66,6 @@ function arrayVmaTester()
     arrayVmaTester.push(Translate.translate('Укомплектованость описания проводов и правильное направление'));
     arrayVmaTester.push(Translate.translate('Номерки на всех дополнительных коммуникационных устройствах: разделители LAN, USB ...'));
     arrayVmaTester.push(Translate.translate('Номерки на всех кабелях типа LAN и других информационных'));
-    arrayVmaTester.push(Translate.translate('Экраны всех экранированных кабелей подключены на землю.'));
     arrayVmaTester.push(Translate.translate('Правильное размещение проводов в зугах и тулейках'));
     arrayVmaTester.push(Translate.translate('Тулейки в зажимах слева-снизу или справа-сверху от винта'));
     arrayVmaTester.push(Translate.translate('Зеленые BUS-бары, проверить чтобы тулейка выходила сверху и не зажимался пластик.'));
@@ -80,6 +78,7 @@ function arrayVmaTester()
     arrayVmaTester.push(Translate.translate('Проверка настроек настраиваемых приборов'));
     arrayVmaTester.push(Translate.translate('Дополнительная визуальная проверка N и F1, F2, F3 вверх-низ'));
     arrayVmaTester.push(Translate.translate('Закрутить все винты'));
+    arrayVmaTester.push(Translate.translate('Закрутить все винты заземлений'));
     arrayVmaTester.push(Translate.translate('Чистота в шкафу'));
     arrayVmaTester.push('***************************************');
     return arrayVmaTester;

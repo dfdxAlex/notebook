@@ -51,10 +51,10 @@ class TranslateBD
         ``
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `Закрутить все винты заземлений`,
+        `Закрутити всі гвинти заземлень`,
+        `Dokręć wszystkie śruby uziemiające`,
+        `Tighten all ground screws`
       ],
       [
         `Нормальное положение контактов NC и NO . Для проверки нормального положения контактов необходимо представить, что NO замкнётся в рабочем состоянии. То есть при включении автомата NO замыкается и УЗО в рабочем состоянии тоже замыкает NO. NC соответственно замкнут когда автомат выключается или cрабатывает УЗО.`,
@@ -312,12 +312,6 @@ class TranslateBD
             `Заклепки на дверях та інших елементах не пошкоджені.`,
             `Nity na drzwiach i pozostałych elementach są nienaruszone.`,
             `The rivets on the doors and other elements are not damaged.`
-        ],
-        [
-            `Экраны всех экранированных кабелей подключены на землю.`,
-            `Екрани всіх кабелів, що екрануються, підключені на землю.`,
-            `Ekrany wszystkich kabli ekranowanych są uziemione.`,
-            `The shields of all shielded cables are connected to ground.`
         ],
         [
             `Медные шайбы на красных шинах где сечение провода меньше 25 мм.`,
