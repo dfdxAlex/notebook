@@ -45,10 +45,10 @@ class TranslateBD
         ``
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `Зуги повернуты открытой частью в одну сторону - нет замыкания между ними.`,
+        `Зуги повернуті відкритою частиною в один бік - немає замикання між ними.`,
+        `Zugi są obracane otwartą częścią w jednym kierunku - nie ma między nimi zwarcia.`,
+        `The zugs are turned with the open part in one direction - there is no short circuit between them.`
       ],
       [
         `Закрутить все винты заземлений`,
@@ -284,12 +284,6 @@ class TranslateBD
         `<h2>*****Mechanics*****</h2>`
       ],
       [
-        `<h2>*****ВНЕШНИЙ ОСМОТР*****</h2>`,
-        `<h2>*****ЗОВНІШНІЙ ОГЛЯД*****</h2>`,
-        `<h2>*****INSPEKCJA ZEWNĘTRZNA*****</h2>`,
-        `<h2>*****EXTERNAL INSPECTION*****</h2>`
-      ],
-      [
         `Зеленые BUS-бары, проверить чтобы тулейка выходила сверху и не зажимался пластик.`,
         `Зелені BUS-бари, перевірити, щоб тулейка виходила зверху і не затискався пластик.`,
         `Zielone listwy BUS, sprawdź czy tiul wychodzi od góry i czy plastik nie jest zaciśnięty.`,
@@ -314,10 +308,10 @@ class TranslateBD
             `The rivets on the doors and other elements are not damaged.`
         ],
         [
-            `Медные шайбы на красных шинах где сечение провода меньше 25 мм.`,
-            `Мідні шайби на червоних шинах, де перетин дроту менше 25 мм.`,
-            `Podkładki miedziane na czerwonych szynach zbiorczych, gdzie przekrój drutu jest mniejszy niż 25 mm.`,
-            `Copper washers on red buses where the wire cross-section is less than 25 mm.`
+            `Медные шайбы на красных шинах где сечение провода <= 25 мм.`,
+            `Мідні шайби на червоних шинах, де перетин дроту <= 25 мм.`,
+            `Podkładki miedziane na czerwonych szynach zbiorczych, gdzie przekrój drutu jest <= 25 mm.`,
+            `Copper washers on red buses where wire cross-section <= 25 mm.`
         ],
         [
             `Проверить наличие контактных шайб где заземление на краске.`,
@@ -698,10 +692,10 @@ Also check the other phases. In the example, the heater is in the VMA.`
             'Names of buttons, counters, switches'
         ],
         [
-            'Тип питания, под напряжением, опасно',
-            'Тип живлення, під напругою, небезпечно',
-            'Rodzaj zasilania, pod napięciem, pioruny',
-            'Power type, under voltage, dangerous'
+            'Наклейка на дверях "Опасное напряжение"',
+            'Наклейка на дверях "Небезпечна напруга"',
+            'Naklejka na drzwi „Niebezpieczne napięcie”',
+            'Door sticker "Dangerous Voltage"'
         ],
         [
             'Проверка повреждений',
@@ -770,10 +764,10 @@ Also check the other phases. In the example, the heater is in the VMA.`
             'Phase order: N, L1, L2, L3. The highest position N'
         ],
         [
-            'Соответствующая длина тулеек',
-            'Відповідна довжина тулубок',
-            'Odpowiednia długość tulejek',
-            'The appropriate length of the crowns'
+            'Достаточная длина тулеек на заземляющей шине.',
+            'Достатня довжина тулеек на заземлюючій шині.',
+            'Wystarczająca długość tulejek na szynie uziemiającej.',
+            'Sufficient length of the sleeves on the grounding bus.'
         ],
         [
             'Правильное и в полном объеме подключение заземлений PE.',
