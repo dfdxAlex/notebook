@@ -51,7 +51,7 @@ function arrayVmaTester()
     arrayVmaTester.push(Translate.translate('Настройки перемычек. Предпоследние с обеих сторон переключены к желтому проводу.'));
     arrayVmaTester.push(Translate.translate('На призмах P, зуги всегда крючком к клиенту.'));
     arrayVmaTester.push(Translate.translate('На призмах P, металлические перегородки заземлены специальной выгнутой пластинкой.'));
-    arrayVmaTester.push(Translate.translate('На призмах P, пластиковые перегородки НЕ в нахлёст.'));
+    // arrayVmaTester.push(Translate.translate('На призмах P, пластиковые перегородки НЕ в нахлёст.'));
     arrayVmaTester.push(Translate.translate('Пластиковые перегородки между реле-реле, реле-оборудование.'));
     arrayVmaTester.push(Translate.translate('Названия и моменты на оборудовании'));
     arrayVmaTester.push(Translate.translate('Linergy, INS, NSX(rowniez pod oslonami) sprawdzenie oslon'));
