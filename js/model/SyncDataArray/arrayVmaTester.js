@@ -58,6 +58,8 @@ function arrayVmaTester()
     arrayVmaTester.push(Translate.translate('Проверка тока шин Linergy, INS, NSX'));
     arrayVmaTester.push(Translate.translate('Достаточная длина тулеек на заземляющей шине.'));
     arrayVmaTester.push(Translate.translate('Правильное и в полном объеме подключение заземлений PE.'));
+    arrayVmaTester.push(Translate.translate('Призма P, двери всегда заземлены.'));
+    
     arrayVmaTester.push(Translate.translate('Проверить наличие контактных шайб где заземление на краске.'));
     arrayVmaTester.push(Translate.translate('Медные шайбы на красных шинах где сечение провода <= 25 мм.'));
     arrayVmaTester.push(Translate.translate('Красный лак на главном включателе, на всех бусбарах и элементах под шестигранник'));
