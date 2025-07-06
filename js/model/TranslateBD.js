@@ -33,10 +33,10 @@ class TranslateBD
         ``
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `Наклейки для недостающих приборов`,
+        `Наклейки для приладів, що бракують`,
+        `Naklejki na brakujące urządzenia`,
+        `Stickers for missing devices`
       ],
       [
         `Призма P, двери всегда заземлены.`,

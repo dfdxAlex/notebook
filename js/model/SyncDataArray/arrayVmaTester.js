@@ -65,6 +65,7 @@ function arrayVmaTester()
     arrayVmaTester.push(Translate.translate('Красный лак на главном включателе, на всех бусбарах и элементах под шестигранник'));
     arrayVmaTester.push(Translate.translate('Красный лак на соединениях заземляющих шин и нулевых, на заземлении главной плиты'));
     // arrayVmaTester.push(Translate.translate('Монтаж и подключение главной запитки'));
+    arrayVmaTester.push(Translate.translate('Наклейки для недостающих приборов'));
     arrayVmaTester.push(Translate.translate('Укомплектованость описания проводов и правильное направление'));
     arrayVmaTester.push(Translate.translate('Номерки на всех дополнительных коммуникационных устройствах: разделители LAN, USB ...'));
     arrayVmaTester.push(Translate.translate('Номерки на всех кабелях типа LAN и других информационных'));
