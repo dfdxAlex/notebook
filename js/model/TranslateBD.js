@@ -15,22 +15,22 @@ class TranslateBD
         ``
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `Гайка металлическая с резьбой М10 затягивается моментом в 50 ньютон.`,
+        `Таблиця відповідностей перерізів AWG з квадратними міліметрами`,
+        `Tabela odpowiedniości przekrojów AWG z milimetrami kwadratowymi`,
+        `Table of correspondences of AWG sections with square millimeters`
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `Таблица соответствий сечений AWG с миллиметрами квадратными`,
+        `Таблиця відповідностей перерізів AWG з квадратними міліметрами`,
+        `Tabela odpowiedniości przekrojów AWG z milimetrami kwadratowymi`,
+        `Table of correspondences of AWG sections with square millimeters`
       ],
       [
-        ``,
-        ``,
-        ``,
-        ``
+        `Площадь сечения (мм²)`,
+        `Площа перерізу (мм²)`,
+        `Powierzchnia przekroju poprzecznego (mm²)`,
+        `Cross-sectional area (mm²)`
       ],
       [
         `Наклейки для недостающих приборов`,
@@ -272,77 +272,10 @@ class TranslateBD
             'Próba elektryczna',
             'Testing under electricity'
         ],
-        [
-            `
-  <h4>Настройка счётчика iEM3255</h4>
-  Нажать и придержать кнопки OK и ESC до появления полей ввода пароля.
-  Пароль вводится по одной цифре.
-  V - увеличивает текущую цифру на один.
-  OK - переходит к вводу следующей цифры.
-  После ввода последней цифры счётчик сам входит в режим настройки.
-  Пароль 0010. Попыток на ввод - 5 (вероятно, но лучше не проверять).
-  В режиме настроек V листает разделы, OK входит в текущий раздел.
-  CT & VT - Раздел для указатия типа трансформатора тока.
-  CT Secondary - указывает нижний параметр, если трансформатор 120/5, то сюда вводится 5.
-  CT Primary - указывает верхний параметр, в данном примере - это 120.
-  ..Проверка.
-  Для проверки счётчика следует нажимать кнопку V, без входа в меню настроек, выбрав пункт V & I или P,Q,& S.
-  На VMA используется нагреватель мощностью 8,4 ампера при 220 вольтах.
-  При входе в раздел V & I можно посмотреть напряжение сети, частоту сети и силу тока на каждой фазе.
-  Поэтому выбрать фазу 1 и подключить нагреватель на фазу 1, если покажет 8,4 ампера, то всё работает.
-  Так-же проверить остальные фазы. В примере нагреватель в VMA.
-`,
-            `<h4>Налаштування лічильника iEM3255</h4>
- Натисніть і утримуйте OK та ESC до появи полів введення пароля.
- Пароль вводиться за однією цифрою.
- V – збільшує поточну цифру на один.
- OK - введення наступної цифри.
- Після введення останньої цифри лічильник сам входить у режим настройки.
- Пароль 0010. Спроб на введення – 5 (ймовірно, але краще не перевіряти).
- У режимі налаштувань V гортає розділи, OK входить до поточного розділу.
- CT&VT - Розділ для вказівки типу трансформатора струму.
- CT Secondary - вказує нижній параметр, якщо трансформатор 120/5, сюди вводиться 5.
- CT Primary – вказує верхній параметр, у даному прикладі – це 120.
- ..Перевірка.
- Для перевірки лічильника слід натискати кнопку V без входу в меню налаштувань, вибравши пункт V & I або P, Q, & S.
- На VMA використовується нагрівач потужністю 8,4 ампера при 220 вольтах.
- При вході до розділу V&I можна переглянути напругу мережі, частоту мережі та силу струму на кожній фазі.
- Тому вибрати фазу 1 і підключити нагрівач на фазу 1 якщо покаже 8,4 ампера, то все працює.
- Також перевірити інші фази. У прикладі нагрівач VMA.`,
-            `<h4>Konfiguracja licznika iEM3255</h4>
- Naciśnij i przytrzymaj przyciski OK i ESC, aż pojawią się pola do wpisania hasła.
- Hasło jest wprowadzane jedną cyfrą na raz.
- V - zwiększa aktualną cyfrę o jeden.
- OK - przechodzi do wpisania kolejnej cyfry.
- Po wpisaniu ostatniej cyfry miernik sam wchodzi w tryb konfiguracji.
- Hasło 0010. Próby wejścia - 5 (prawdopodobnie, ale lepiej nie sprawdzać).
- W trybie ustawień V przewija sekcje, OK powoduje przejście do bieżącej sekcji.
- CT i VT – Sekcja wskazująca typ przekładnika prądowego.
- CT Secondary - wskazuje dolny parametr, jeśli transformator ma wartość 120/5, to tutaj wprowadza się 5.
- CT Primary - wskazuje najwyższy parametr, w tym przykładzie jest to 120.
- ..Badanie.
- Aby sprawdzić licznik należy wcisnąć przycisk V bez wchodzenia do menu ustawień wybierając V&I lub P,Q,&S.
- VMA wykorzystuje grzejnik 8,4 A przy napięciu 220 woltów.
- Wchodząc do sekcji V & I, możesz zobaczyć napięcie sieciowe, częstotliwość sieci i prąd na każdej fazie.
- Dlatego wybierz fazę 1 i podłącz grzałkę do fazy 1, jeśli pokazuje 8,4 ampera, to wszystko działa.
- Sprawdź także pozostałe fazy. W przykładzie grzejnik jest w trybie VMA.`,
-            `<h4>Configuring the iEM3255 meter</h4>
-Press and hold the OK and ESC buttons until the password entry fields appear.
-The password is entered one digit at a time.
-V - increases the current digit by one.
-OK - proceeds to entering the next digit.
-After entering the last digit, the meter automatically enters the setup mode.
-Password 0010. Input attempts - 5 (probably, but it is better not to check).
-In the setup mode, V scrolls through the sections, OK enters the current section.
-CT & VT - Section for specifying the type of current transformer.
-CT Secondary - specifies the lower parameter, if the transformer is 120/5, then 5 is entered here.
-CT Primary - specifies the upper parameter, in this example it is 120.
-..Checking.
-To check the meter, press the V button without entering the settings menu, selecting the V & I or P, Q, & S item.
-The VMA uses a heater with a power of 8.4 amperes at 220 volts.
-When entering the V & I section, you can see the network voltage, network frequency and current strength in each phase.
-Therefore, select phase 1 and connect the heater to phase 1, if it shows 8.4 amperes, then everything works.
-Also check the other phases. In the example, the heater is in the VMA.`
+        [iEM3255RU(),
+         iEM3255UA(),
+         iEM3255PL(),
+         iEM3255EN()
         ],
         [
             'Подключение проводов. D1+ - Коричневый. В0- - Белый. 0V - Жёлтый. SH - Экран.',
