@@ -11,6 +11,7 @@ class Translate extends TranslateBD
     static translate(str)
     {
         if (this.lang === null) this.lang = 'en';
+        if (this.lang === 'ru') return str;
         for(let val of super.translateArray) {
             if (str === val[0]) {
                 switch (this.lang) {
@@ -20,8 +21,8 @@ class Translate extends TranslateBD
                         return val[1];
                     case "pl":
                         return val[2];
-                    case "ru":
-                        return val[0];
+                    // case "ru":
+                    //     return val[0];
                 }
             }
         }
